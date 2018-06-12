@@ -1,0 +1,75 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/weapons/c_items/c_proto_medigun_glass"
+	"$surfaceprop"	"glass"
+//	"$bumpmap" "models/props_facemovie/proto_medigun/proto_medigun_glass_normal"
+	"$lightwarptexture" "models/lightwarps/jarate_lightwarp"
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[3 3 3]"
+	"$envmapfresnel" 1
+	"$envMapFresnelMinMaxExp" "[2 1 4]"
+	"$baseAlphaEnvMapMaskMinMaxExp" "[0 1 1]"
+	"$translucent"	1
+
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"5"
+	"$phongexponent"	"30"
+	"$phongfresnelranges"	"[.2 1 4]"
+	
+	"$rimlight" 1
+	"$rimboost" 8
+	
+
+	"$glowcolor" "1"
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"$sheenPassEnabled" "1"
+
+	"$sheenmap" 		"cubemaps\cubemap_sheen001"
+	"$sheenmapmask" 		"Effects\AnimatedSheen\animatedsheen0"
+	"$sheenmaptint" 		"[ 1 1 1 ]"
+	"$sheenmapmaskframe" 	"0"
+	"$sheenindex" 		"0"
+
+	"$yellow" "0"
+
+	"Proxies"
+	{
+		"AnimatedWeaponSheen"
+		{
+			"animatedtexturevar" 		"$sheenmapmask"
+			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
+			"animatedtextureframerate" 		"40"
+		}
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}
