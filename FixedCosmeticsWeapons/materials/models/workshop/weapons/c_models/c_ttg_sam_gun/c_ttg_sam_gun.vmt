@@ -3,8 +3,8 @@
 	"$baseTexture" "models/workshop/weapons/c_models/c_ttg_sam_gun/c_ttg_sam_gun"
 	
 	"$phong" "1"
-	"$phongexponent" "25"
-	"$phongboost" "4"	
+	"$phongexponent" "45"
+	"$phongboost" "1.4"		
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
 	"$phongfresnelranges"	"[1.5 .5 3]"
 	
