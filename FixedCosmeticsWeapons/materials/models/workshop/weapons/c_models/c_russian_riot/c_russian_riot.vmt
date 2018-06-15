@@ -6,13 +6,13 @@
 	"$phongexponent" "25"
 	"$phongboost" "0.4"		
 	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
-	"$phongfresnelranges"	"[1 .6 1]"
+	"$phongfresnelranges"	"[.25 .5 1]"
 
 	"$basemapalphaphongmask" "1"
 
-	"$rimlight" "1"						
-	"$rimlightexponent" "20"				
-	"$rimlightboost" "2"
+	"$rimlight" "1"			
+	"$rimlightexponent" "25"	
+	"$rimlightboost" ".25"
 	
 	"$glowcolor" "1"
 

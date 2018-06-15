@@ -12,7 +12,7 @@
 
 	"$rimlight" "1"						
 	"$rimlightexponent" "20"				
-	"$rimlightboost" ".8"
+	"$rimlightboost" ".25"
 
 	"$glowcolor" "1"
 

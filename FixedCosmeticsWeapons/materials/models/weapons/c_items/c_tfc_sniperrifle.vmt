@@ -11,9 +11,9 @@
 	"$basemapalphaphongmask" "1"
 	
 	// Rim lighting parameters
-	"$rimlight" "1"			
-	"$rimlightexponent" "6"	
-	"$rimlightboost" "1"
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" ".125"
 
 	"360?$color2" "[ 0.5 0.5 0.5 ]"
 

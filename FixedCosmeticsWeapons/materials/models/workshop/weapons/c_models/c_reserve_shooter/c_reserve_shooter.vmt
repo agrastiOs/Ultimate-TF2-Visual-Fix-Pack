@@ -1,40 +1,21 @@
-"VertexLitGeneric"
+"VertexlitGeneric"
 {
-	"$baseTexture" "models/items/paintkit_tool/paintkit_tool"
+	"$baseTexture" "models/workshop/weapons/c_models/c_reserve_shooter/c_reserve_shooter"
+
 	"$basemapalphaphongmask" "1"
 
 	"$phong" "1"
-//	"$phongexponenttexture" "models/weapons/c_models/c_rocketlauncher/c_rocketlauncher_exp"
-	"$phongexponent" "255"
-	"$phongboost" "4"
-	"$phongalbedotint" "1"
-	
-	//scales up the exponent texture which usually only has about 120 levels of exponent
-//	"$phongexponentfactor"  "100"
-	
+	"$phongexponent" "25"
+	"$phongboost" "8"	
 	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
-	
-	"$phongfresnelranges"	"[.3 .5 3]"
-	"$halflambert" "1"
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+	"$rimlight" "1"			
+	"$rimlightexponent" "20"	
+	"$rimlightboost" ".25"
+
+
 	"$glowcolor" "1"
-	
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[.1 .1 .1]"
-//	"$envmap" "cubemaps/cubemap_gold001"	
-//	"$envmaptint" "[2.5 2.5 1.15]"
-	
-	"$selfillum" 1
-	"$selfillumtint" "[5.0 3.0 0.7]"
-	"$selfIllumFresnel" "1"
-	"$selfIllumFresnelMinMaxExp" "[0 10 20]"
-	"$phongtint" "[0.5 0.4 0.3]"
-
-	
-
-	"$rimlight" "1"
-	"$rimlightexponent" "2"
-	"$rimlightboost" "2.5"
-	"$rimmask" "1"
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
@@ -47,6 +28,7 @@
 	"$sheenindex" 		"0"
 
 	"$yellow" "0"
+
 	"Proxies"
 	{
 		"AnimatedWeaponSheen"
@@ -82,10 +64,8 @@
 			"srcVar2" "$yellow"
 			"resultVar" "$color2"
 		}
-	
-	
-		"WeaponSkin" {
-			
+		"WeaponSkin"
+		{
 		}
 	}
 }
