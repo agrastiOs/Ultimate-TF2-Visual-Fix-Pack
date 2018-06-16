@@ -1,31 +1,28 @@
-"VertexLitGeneric"
+"VertexlitGeneric"
 {
-	"$basetexture"	"models/weapons/c_items/c_tfc_sniperrifle"
-	
+	"$baseTexture" "models/workshop/weapons/c_models/c_reserve_shooter/c_reserve_shooter"
+
+	"$basemapalphaphongmask" "1"
+
 	"$phong" "1"
 	"$phongexponent" "25"
-	"$phongboost" "6"	
-	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
-	"$phongfresnelranges"	"[.5 .5 3]"
-	
-	"$basemapalphaphongmask" "1"
-	
-	// Rim lighting parameters
-	"$rimlight" "1"						
-	"$rimlightexponent" "20"				
-	"$rimlightboost" ".125"
+	"$phongboost" "8"	
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
 
-	"360?$color2" "[ 0.5 0.5 0.5 ]"
+	"$rimlight" "1"			
+	"$rimlightexponent" "20"	
+	"$rimlightboost" ".25"
+
 
 	"$glowcolor" "1"
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
-
 	"$sheenPassEnabled" "1"
 
-	"$sheenmap" 		"cubemaps\cubemap_sheen001"
-	"$sheenmapmask" 		"Effects\AnimatedSheen\animatedsheen0"
+	"$sheenmap" 		"cubemaps/cubemap_sheen001"
+	"$sheenmapmask" 		"Effects/AnimatedSheen/animatedsheen0"
 	"$sheenmaptint" 		"[ 1 1 1 ]"
 	"$sheenmapmaskframe" 	"0"
 	"$sheenindex" 		"0"
@@ -66,6 +63,9 @@
 			"srcVar1" "$color2"
 			"srcVar2" "$yellow"
 			"resultVar" "$color2"
+		}
+		"WeaponSkin"
+		{
 		}
 	}
 }
