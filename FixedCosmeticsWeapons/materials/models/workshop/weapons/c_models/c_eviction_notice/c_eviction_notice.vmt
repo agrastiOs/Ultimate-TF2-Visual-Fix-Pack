@@ -4,12 +4,15 @@
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"	
 
 	"$phong" "1"
-	"$phongexponent" "10"
-	"$phongboost" "1"	
+	"$phongexponent" "7"
+	"$phongboost" "12"	
+	"$phongtint" "[5 1 0]"
 	"$phongfresnelranges"	"[.25 .5 1]"
 
-	"$envmap" "cubemaps/cubemap_sheen001"
-	"$envmaptint" "[1 0.8 0.4]"
+	"$basemapalphaphongmask" "1"
+
+	"$envmap" "cubemaps/cubemap_gold001"
+	"$envmaptint" "[0.07 0.05 0.05]"
 
 	"$rimlight" "1"
 	"$rimlightexponent" "10"	
