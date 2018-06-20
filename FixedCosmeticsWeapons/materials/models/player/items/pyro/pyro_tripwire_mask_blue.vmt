@@ -1,6 +1,7 @@
 "VertexlitGeneric"
 {
 	"$baseTexture" "models/player/items/pyro/pyro_tripwire_mask_blue"
+	"$bumpmap" "models/player/items/pyro/pyro_tripwire_mask_normal"
 
 	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
 	"$detailscale" "5"
@@ -9,12 +10,12 @@
 	"$yellow" "0"
 
 	"$phong" "1"
-	"$phongexponent" "10"
-	"$phongboost" "0.5"	
+	"$phongexponent" "20"
+	"$phongboost" "4"	
 	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
 	"$phongfresnelranges"	"[.2 .5 1]"
 	
-	"$basemapalphaphongmask" "0"
+	"$normalmapalphaphongmask" "1"
 
  	"$blendtintbybasealpha" "1" 
  	"$blendtintcoloroverbase" "0"  
