@@ -1,16 +1,16 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models/workshop/weapons/c_models/c_ava_roseknife/c_ava_roseknife"
-	"$basemapalphaphongmask" 1
+	"$baseTexture" "models/weapons/c_models/c_knife/c_knife_gold"
+
+	// Begin GOLD look
+	"$envmap" "cubemaps/cubemap_gold001"	
+	"$envmaptint" "[2.5 2.5 1.15]"
 
 	"$phong" "1"
-	"$phongexponent" "45"
-	"$phongboost" "15"	
+	"$phongexponent" "155"
+	"$phongboost" "1"	
 	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
 	"$phongfresnelranges"	"[.25 .5 1]"
-	
-	"$basephongexponent" "25"
-	"$basephongboost" "5"
 
 	"$rimlight" "1"
 	"$rimlightexponent" "20"	
