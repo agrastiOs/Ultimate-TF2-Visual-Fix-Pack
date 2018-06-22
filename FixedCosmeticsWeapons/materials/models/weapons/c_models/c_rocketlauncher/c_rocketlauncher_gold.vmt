@@ -1,25 +1,34 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models/workshop/weapons/c_models/c_ava_roseknife/c_ava_roseknife"
-	"$basemapalphaphongmask" 1
-
-	"$phong" "1"
-	"$phongexponent" "45"
-	"$phongboost" "15"	
-	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
-	"$phongfresnelranges"	"[.25 .5 1]"
+	"$baseTexture" "models/weapons/c_models/c_rocketlauncher/c_rocketlauncher_gold"
+	"$phongexponenttexture" "models/weapons/c_models/c_rocketlauncher/c_rocketlauncher_exp"
 	
-	"$basephongexponent" "25"
-	"$basephongboost" "5"
-
-	"$rimlight" "1"
-	"$rimlightexponent" "20"	
-	"$rimlightboost" "4"
-
+	"$phong" "1"
+	"$phongexponent" "185"
+	"$phongboost" "12"	
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges"	"[1 .6 1]"
 	"$glowcolor" "1"
+
+	// Begin GOLD look
+
+	"$envmap" "cubemaps/cubemap_gold001"	
+	"$envmaptint" "[2.5 2.5 1.15]"
+	
+	// End GOLD look
+
+	"$basemapalphaphongmask" "1"
+	
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" "2"
+	"$rimmask" "1"
+
+	"360?$color2" "[ 0.7 0.7 0.7 ]"
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
+
 	"$sheenPassEnabled" "1"
 
 	"$sheenmap" 		"cubemaps/cubemap_sheen001"
@@ -27,7 +36,7 @@
 	"$sheenmaptint" 		"[ 1 1 1 ]"
 	"$sheenmapmaskframe" 	"0"
 	"$sheenindex" 		"0"
-
+	
 	"$yellow" "0"
 
 	"Proxies"

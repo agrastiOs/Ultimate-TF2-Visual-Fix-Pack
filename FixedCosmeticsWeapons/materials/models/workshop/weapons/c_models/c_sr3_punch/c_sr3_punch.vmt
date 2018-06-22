@@ -1,23 +1,26 @@
 "VertexLitGeneric"
 {
-	"$basetexture"	"models/workshop/weapons/c_models/c_tomislav/c_tomislav"
-	
+	"$baseTexture" "models/workshop/weapons/c_models/c_sr3_punch/c_sr3_punch"
+
+	"$yellow" "0"
+	"$glowcolor" "1"
+
 	"$phong" "1"
 	"$phongexponent" "15"
-	"$phongboost" "1.4"	
-	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
-	"$phongfresnelranges"	"[1.5 .5 3]"
+	"$phongboost" "2"	
+	"$lightwarptexture" "models/workshop/weapons/c_models/c_sr3_punch/c_sr3_punch_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
 
-	"$basemapalphaphongmask" "1"
-	
-	"$rimlight" "1"						
-	"$rimlightexponent" "40"				
-	"$rimlightboost" ".5"
-
-	"$glowcolor" "1"
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "3"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" ".2"										// Boost for ambient cube component of rim lighting
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
+
+	"360?$color2" "[ 0.8 0.8 0.8 ]"
+
 	"$sheenPassEnabled" "1"
 
 	"$sheenmap" 		"cubemaps/cubemap_sheen001"
@@ -25,8 +28,6 @@
 	"$sheenmaptint" 		"[ 1 1 1 ]"
 	"$sheenmapmaskframe" 	"0"
 	"$sheenindex" 		"0"
-
-	"$yellow" "0"
 
 	"Proxies"
 	{
@@ -38,6 +39,16 @@
 		}
 		"invis"
 		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
 		}
 		"ModelGlowColor"
 		{
@@ -57,9 +68,6 @@
 			"srcVar1" "$color2"
 			"srcVar2" "$yellow"
 			"resultVar" "$color2"
-		}
-		"WeaponSkin"
-		{
 		}
 	}
 }

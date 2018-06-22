@@ -1,20 +1,26 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models/workshop/weapons/c_models/c_ava_roseknife/c_ava_roseknife"
-	"$basemapalphaphongmask" 1
-
-	"$phong" "1"
-	"$phongexponent" "45"
-	"$phongboost" "15"	
-	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
-	"$phongfresnelranges"	"[.25 .5 1]"
+	"$basetexture"	"models/weapons/c_models/c_medigun/c_medigun_gold"
+	"$phongexponenttexture" "models/weapons/c_models/c_medigun/c_medigun_exp"
 	
-	"$basephongexponent" "25"
-	"$basephongboost" "5"
+	"$phong" "1"
+	"$phongexponent" "65"
+	"$phongboost" "10"	
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges"	"[1 .6 1]"
 
-	"$rimlight" "1"
-	"$rimlightexponent" "20"	
+	"$envmap" "cubemaps/cubemap_gold001"	
+	"$envmaptint" "[2.5 2.5 1.15]"
+
+	//"$selfillum" "1"
+	//"$selfillumtint" "[1 .55 .1]"
+
+	"$basemapalphaphongmask" "1"
+	
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
 	"$rimlightboost" "4"
+	"$rimmask" "1"
 
 	"$glowcolor" "1"
 
@@ -44,11 +50,6 @@
 		"ModelGlowColor"
 		{
 			"resultVar" "$glowcolor"
-		}
-		"Equals"
-		{
-			"srcVar1"  "$glowcolor"
-			"resultVar" "$selfillumtint"
 		}
 		"Equals"
 		{

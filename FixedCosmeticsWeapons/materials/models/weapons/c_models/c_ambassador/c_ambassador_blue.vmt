@@ -1,20 +1,21 @@
 "VertexLitGeneric"
 {
-	"$baseTexture" "models/workshop/weapons/c_models/c_ava_roseknife/c_ava_roseknife"
-	"$basemapalphaphongmask" 1
-
-	"$phong" "1"
-	"$phongexponent" "45"
-	"$phongboost" "15"	
-	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
-	"$phongfresnelranges"	"[.25 .5 1]"
+	$baseTexture "models/weapons/c_models/c_ambassador/c_ambassador_blue"
+	$bumpmap "models/weapons/c_models/c_ambassador/c_ambassador_normal"
 	
-	"$basephongexponent" "25"
-	"$basephongboost" "5"
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "10"	
+	"$lightwarptexture" "models/weapons/c_models/c_ambassador/c_ambassador_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+	"$phongwarptexture"  "models/weapons/c_models/c_ambassador/c_ambassador_phongwarp"
 
 	"$rimlight" "1"
-	"$rimlightexponent" "20"	
-	"$rimlightboost" "4"
+	"$rimlightexponent" "2"	
+	"$rimlightboost" "0.25"
+
+	"360?$color2" "[ 0.9 0.8 0.8 ]"
+
 
 	"$glowcolor" "1"
 
@@ -64,6 +65,9 @@
 			"srcVar1" "$color2"
 			"srcVar2" "$yellow"
 			"resultVar" "$color2"
+		}
+		"WeaponSkin"
+		{
 		}
 	}
 }

@@ -11,8 +11,8 @@
 	"$basemapalphaphongmask" "1"
 
 	"$rimlight" "1"			
-	"$rimlightexponent" "25"	
-	"$rimlightboost" ".25"
+	"$rimlightexponent" "20"	
+	"$rimlightboost" ".35"
 	
 	"$glowcolor" "1"
 

@@ -22,7 +22,7 @@
 	// Rim lighting parameters
 	"$rimlight" "1"				// To enable rim lighting (requires phong)
 	"$rimlightexponent" "20"			// Exponent for phong component of rim lighting	
-	"$rimlightboost" ".25"			// Boost for ambient cube component of rim lighting
+	"$rimlightboost" ".35"			// Boost for ambient cube component of rim lighting
 
 	// Cloaking
 	"$cloakPassEnabled" "1"

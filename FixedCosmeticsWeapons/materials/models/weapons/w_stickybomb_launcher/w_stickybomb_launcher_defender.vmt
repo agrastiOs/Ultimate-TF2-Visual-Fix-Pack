@@ -10,18 +10,12 @@
 	"$basemapalphaphongmask" "1"
 	"$glowcolor" "1"
 
-	
-
 	"$basephongexponent" "20"
 	"$basephongboost" ".75"
 
-	"$rimlight" "1"						
-	"$rimlightexponent" "20"				
-	"$rimlightboost" "2"
-
-	"$commadd_phongexponent" "30"
-	"$commadd_phongboost" 	"22.5"
-	"$commweapon"		"0"
+	"$rimlight" "1"
+	"$rimlightexponent" "25"	
+	"$rimlightboost" ".125"
 
 	// Cloaking
 	"$cloakPassEnabled" "1"

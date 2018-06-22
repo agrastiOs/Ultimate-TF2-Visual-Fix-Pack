@@ -11,10 +11,7 @@
 	"$phongfresnelranges" "[.25 .5 1]"
 	
 	"$glowcolor" "1"
-
-
 	
-
 	"$basephongexponent" "25"
 	"$basephongboost" "5"
 
