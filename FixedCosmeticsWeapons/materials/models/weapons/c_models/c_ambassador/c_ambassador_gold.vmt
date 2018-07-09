@@ -1,7 +1,7 @@
-"VertexlitGeneric"
+"VertexLitGeneric"
 {
 	"$baseTexture" "models/weapons/c_models/c_ambassador/c_ambassador_gold"
-	$bumpmap "models/weapons/c_models/c_ambassador/c_ambassador_normal"
+	"$bumpmap" "models/weapons/c_models/c_ambassador/c_ambassador_normal"
 
 	"$basemapalphaphongmask" 1
 	"$phong" "1"
@@ -15,8 +15,8 @@
 	"$envmaptint" "[2.5 2.5 1.15]"
 
 	"$rimlight" "1"
-	"$rimlightexponent" "2"	
-	"$rimlightboost" "0.25"
+	"$rimlightexponent" "20"	
+	"$rimlightboost" ".25"
 
 	"360?$color2" "[ 0.9 0.8 0.8 ]"
 

@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
-	$baseTexture "models/weapons/c_models/c_ambassador/c_ambassador_blue"
-	$bumpmap "models/weapons/c_models/c_ambassador/c_ambassador_normal"
+	"$baseTexture" "models/weapons/c_models/c_ambassador/c_ambassador_blue"
+	"$bumpmap" "models/weapons/c_models/c_ambassador/c_ambassador_normal"
 	
 	"$phong" "1"
 	"$phongexponent" "5"
@@ -11,8 +11,8 @@
 	"$phongwarptexture"  "models/weapons/c_models/c_ambassador/c_ambassador_phongwarp"
 
 	"$rimlight" "1"
-	"$rimlightexponent" "2"	
-	"$rimlightboost" "0.25"
+	"$rimlightexponent" "20"	
+	"$rimlightboost" ".25"
 
 	"360?$color2" "[ 0.9 0.8 0.8 ]"
 

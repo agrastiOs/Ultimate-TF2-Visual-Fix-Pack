@@ -1,24 +1,21 @@
 "VertexLitGeneric"
 {
-	"$basetexture"	"models/weapons/c_items/c_syringegun_glass"
+	"$baseTexture"	"models/weapons/c_items/c_syringegun_glass"
 	"$translucent" "1"
 	"$additive" "1"
 
 	"$envmap" "env_cubemap"
 	"$envmaptint" "[.2 .2 .2]"
-	"$envmapfresnel" 1
-	"$envMapFresnelMinMaxExp" "[2 1 4]"
-	"$baseAlphaEnvMapMaskMinMaxExp" "[0 1 1]"
 
 	"$phong" "1"
 	"$phongexponent" "65"
-	"$phongfresnelranges" "[1 2 4]"
+	"$phongfresnelranges"	"[1.5 .5 3]"
 	"$lightwarptexture" "models/lightwarps/jarate_lightwarp"
 	"$phongboost" "6"
 
 	"$rimlight" "1"						
 	"$rimlightexponent" "20"				
-	"$rimlightboost" "2"
+	"$rimlightboost" ".25"
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
