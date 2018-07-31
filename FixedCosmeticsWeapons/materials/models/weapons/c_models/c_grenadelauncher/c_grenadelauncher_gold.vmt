@@ -11,7 +11,7 @@
 	"$phongfresnelranges"	"[2 1 1]"
 	"$rimlight" "1"						
 	"$rimlightexponent" "10"				
-	"$rimlightboost" "1.5"
+	"$rimlightboost" "1"
 	"$rimmask" "1"
 	// Begin GOLD look
 

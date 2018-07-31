@@ -17,9 +17,6 @@
 	
 	"$glowcolor" "1"
 
-
-	
-
 	//commented out to use the exponent mask
 	//"$basephongexponent" "15"
 	//"$basephongboost" "3"
@@ -27,8 +24,8 @@
 	"$basemapalphaphongmask" "1"
 	
 	"$rimlight" "1"						
-	"$rimlightexponent" "10"				
-	"$rimlightboost" "3"
+	"$rimlightexponent" "20"				
+	"$rimlightboost" ".25"
 	"$rimmask" "1"
 	
 

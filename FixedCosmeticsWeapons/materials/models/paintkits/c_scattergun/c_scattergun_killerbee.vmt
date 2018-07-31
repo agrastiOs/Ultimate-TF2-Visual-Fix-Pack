@@ -34,7 +34,7 @@
 
 	"$rimlight" "1"
 	"$rimlightexponent" "20"
-	"$rimlightboost" "1"
+	"$rimlightboost" "0.5"
 	"$rimmask" "1"
 
 	// Cloaking

@@ -4,15 +4,14 @@
 	"$basemapalphaphongmask" 1
 
 	"$phong" "1"
-	"$phongexponent" "30"
+	"$phongexponent" "15"
 	"$phongboost" "1.5"	
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
 	"$phongfresnelranges"	"[1.5 .5 3]"
 	
 	"$rimlight" "1"						
-	"$rimlightexponent" "20"				
-	"$rimlightboost" "1"
-	"$rimmask" "1"
+	"$rimlightexponent" "15"				
+	"$rimlightboost" "0.25"
 
 	"$glowcolor" "1"
 

@@ -32,10 +32,10 @@
 
 	
 
-	"$rimlight" "1"
-	"$rimlightexponent" "80"
-	"$rimlightboost" ".4"
-//	"$rimmask" "1"
+	"$rimlight" "1"						
+	"$rimlightexponent" "15"				
+	"$rimlightboost" "0.25"
+
 
 	// Cloaking
 	"$cloakPassEnabled" "1"

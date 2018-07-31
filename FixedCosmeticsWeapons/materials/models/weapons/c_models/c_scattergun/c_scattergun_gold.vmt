@@ -1,17 +1,27 @@
 "VertexLitGeneric"
 {
-	"$basetexture"	"models/weapons/c_models/c_flameball/c_flameball"
-	"$basemapalphaphongmask" 1
+	"$basetexture"	"models/weapons/c_models/c_scattergun/c_scattergun_gold"
+	"$phongexponenttexture" "models/weapons/c_models/c_scattergun/c_scattergun_exp"
 
-	"$phong" "1"
-	"$phongexponent" "15"
-	"$phongboost" "1.5"	
-	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
-	"$phongfresnelranges"	"[1.5 .5 3]"
+	"$yellow" "0"
 	
+	"$basemapalphaphongmask" "1"
+	"$envmap" "cubemaps/cubemap_gold001"	
+	"$envmaptint" "[2.5 2.5 1.15]"
+	
+	"$phong" "1"
+	"$phongexponent" "90"
+	"$phongboost" "10"
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges"	"[.5 .5 3]"
+
+	// Rim lighting parameters
 	"$rimlight" "1"						
-	"$rimlightexponent" "15"				
-	"$rimlightboost" "0.25"
+	"$rimlightexponent" "20"				
+	"$rimlightboost" "0.5"
+	"$rimmask" "1
+
+	"360?$color2" "[ 0.5 0.5 0.5 ]"
 
 	"$glowcolor" "1"
 
@@ -19,13 +29,11 @@
 	"$cloakPassEnabled" "1"
 	"$sheenPassEnabled" "1"
 
-	"$sheenmap" 		"cubemaps\cubemap_sheen001"
-	"$sheenmapmask" 		"Effects\AnimatedSheen\animatedsheen0"
+	"$sheenmap" 		"cubemaps/cubemap_sheen001"
+	"$sheenmapmask" 		"Effects/AnimatedSheen/animatedsheen0"
 	"$sheenmaptint" 		"[ 1 1 1 ]"
 	"$sheenmapmaskframe" 	"0"
 	"$sheenindex" 		"0"
-
-	"$yellow" "0"
 
 	"Proxies"
 	{
