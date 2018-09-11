@@ -1,33 +1,19 @@
-"VertexLitGeneric"
+"VertexlitGeneric"
 {
-	"$baseTexture" "models/workshop/weapons/c_models/c_quadball/c_quadball"
-	"$basemapalphaphongmask" "1"
+	"$baseTexture" "models/workshop/weapons/c_models/c_scorch_shot/c_scorch_shot"
+	"$basemapalphaphongmask" 1
 
 	"$phong" "1"
-	"$phongexponent" "255"
-	"$phongboost" "4"
-	"$phongalbedotint" "1"
-	
-	//scales up the exponent texture which usually only has about 120 levels of exponent
-//	"$phongexponentfactor"  "100"
-	
+	"$phongexponent" "30"
+	"$phongboost" "10"	
 	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
-	
-	"$phongfresnelranges"	"[.3 .5 3]"
-	
-	"$glowcolor" "1"
-	
-	"$selfillum" 1
-	"$selfillumtint" "[5.0 3.0 0.7]"
-	"$selfIllumFresnel" "1"
-	"$selfIllumFresnelMinMaxExp" "[0 10 20]"
-	"$phongtint" "[0.5 0.4 0.3]"
+	"$phongfresnelranges" "[0.45 0.7 1]"
 
-	
+	"$glowcolor" "1"
 
 	"$rimlight" "1"
-	"$rimlightexponent" "20"
-	"$rimlightboost" "0.5"
+	"$rimlightexponent" "20"	
+	"$rimlightboost" "0.25"
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
@@ -40,6 +26,7 @@
 	"$sheenindex" 		"0"
 
 	"$yellow" "0"
+
 	"Proxies"
 	{
 		"AnimatedWeaponSheen"
@@ -75,10 +62,8 @@
 			"srcVar2" "$yellow"
 			"resultVar" "$color2"
 		}
-	
-	
-		"WeaponSkin" {
-			
+		"WeaponSkin"
+		{
 		}
 	}
 }
