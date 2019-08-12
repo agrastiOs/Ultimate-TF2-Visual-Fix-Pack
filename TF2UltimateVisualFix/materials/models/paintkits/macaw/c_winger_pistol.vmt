@@ -4,7 +4,6 @@
 	"$basemapalphaphongmask" "1"
 
 	"$phong" "1"
-//	"$phongexponenttexture" "models/workshop/weapons/c_models/c_rocketlauncher/c_rocketlauncher_exp"
 	"$phongexponent" "255"
 	"$phongboost" "4"
 	"$phongalbedotint" "1"

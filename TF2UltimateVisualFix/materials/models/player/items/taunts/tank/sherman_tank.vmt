@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\player\items\taunts\tank\sherman_tank"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"0.5"
+	"$phongexponent" 125
+	"$phongfresnelranges"	"[.25 .5 1]"
+}
