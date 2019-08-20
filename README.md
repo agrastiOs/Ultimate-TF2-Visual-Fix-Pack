@@ -18,6 +18,8 @@ Highlights of the pack:
 * Fixed Photo Badge and Clan Pride to actually have the default texture the creators intended to be used. Valve said they will fix it 5 years ago, but it never happened.
 * Fixed Dragon Fury itself looking bland, and Thermal Thruster has a better texture now (and synced up particles with the thrusters bursts!)
 * General cosmetic fixes like fixing bad vmt parameters and bad/wrong team texture colors. (E.g. Several Ellis' Cap reskin cosmetics with bad materials now look much better, Pocket Medic's Heavy version no longer looks bland, Tyurtlenek's blue texture now matches with Heavy's shirt, Lucky Shot now looks consitent with Soldier's actual helmet, Antartic Eyewear's white goggles problem (Fixed by item's creator) and such and similar fixes are included).
+
+
 Thanks to the contributors:
 
 * agrastiOs
