@@ -5,18 +5,17 @@
 	"$phong" "1"
 	"$phongexponent" "10"
 	"$phongboost" "0.2"	
-	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$lightwarptexture" "models\lightwarps\softened_weapon_lightwarp"
 	"$phongfresnelranges"	"[1 2.5 5]"
 	
 
 	"$glowcolor" "1"
 	"$speccolor" "1"
 
-	
-	
-	"$commadd_phongexponent" "30"
-	"$commadd_phongboost" 	"22.5"	
-	"$commweapon"		"0"
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" "5"
+	"$detailblendfactor" .01
+	"$detailblendmode" 6
 
 	"$basemapalphaphongmask" "1"
 	

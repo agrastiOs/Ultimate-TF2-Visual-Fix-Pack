@@ -4,7 +4,6 @@
 	"$basemapalphaphongmask" "1"
 
 	"$phong" "1"
-//	"$phongexponenttexture" "models/workshop/weapons/c_models/c_rocketlauncher/c_rocketlauncher_exp"
 	"$phongexponent" "255"
 	"$phongboost" "4"
 	"$phongalbedotint" "1"
@@ -18,23 +17,15 @@
 	
 	"$glowcolor" "1"
 	
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[.1 .1 .1]"
-//	"$envmap" "cubemaps/cubemap_gold001"	
-//	"$envmaptint" "[2.5 2.5 1.15]"
-	
 	"$selfillum" 1
 	"$selfillumtint" "[5.0 3.0 0.7]"
 	"$selfIllumFresnel" "1"
 	"$selfIllumFresnelMinMaxExp" "[0 10 20]"
 	"$phongtint" "[0.5 0.4 0.3]"
 
-	
-
 	"$rimlight" "1"
-	"$rimlightexponent" "2"
-	"$rimlightboost" "2.5"
-	"$rimmask" "1"
+	"$rimlightexponent" "20"	
+	"$rimlightboost" "0.25"
 
 	// Cloaking
 	"$cloakPassEnabled" "1"

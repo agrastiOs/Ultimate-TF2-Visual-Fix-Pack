@@ -13,6 +13,11 @@
 	"$phongfresnelranges"	"[2 1 5]"
 	"$glowcolor" "1"
 
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" "5"
+	"$detailblendfactor" .01
+	"$detailblendmode" 6
+
 	"$rimlight" "1"												// To enable rim lighting (requires phong)
 	"$rimlightexponent" "9"										// Exponent for phong component of rim lighting	
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting

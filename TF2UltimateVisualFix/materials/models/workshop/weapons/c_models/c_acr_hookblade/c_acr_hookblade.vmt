@@ -10,9 +10,9 @@
 	"$phongwarptexture"  "models/weapons/c_items/c_ambassador_phongwarp"
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
 
-	"$rimlight" "0.5"
-	"$rimlightexponent" "2"	
-	"$rimlightboost" "0.25"
+	"$rimlight" "1"
+	"$rimlightexponent" "20"	
+	"$rimlightboost" ".25"
 
 	"360?$color2" "[ 0.9 0.8 0.8 ]"
 

@@ -12,8 +12,6 @@
 	"$basephongexponent" "100"
 	"$basephongboost" "2"
 
-	
-
 	"$commadd_phongexponent" "30"
 	"$commadd_phongboost" 	"22.5"
 	"$commweapon"		"0"

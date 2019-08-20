@@ -7,8 +7,13 @@
 	"$phong" "1"
 	"$phongexponent" "8"
 	"$phongboost" "2"
-	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$lightwarptexture" "models/lightwarps/softened_weapon_lightwarp"
 	"$phongfresnelranges"	"[.25 1 4]"
+
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" "5"
+	"$detailblendfactor" .01
+	"$detailblendmode" 6
 
 	// Rim lighting parameters
 	"$rimlight" "1"												// To enable rim lighting (requires phong)

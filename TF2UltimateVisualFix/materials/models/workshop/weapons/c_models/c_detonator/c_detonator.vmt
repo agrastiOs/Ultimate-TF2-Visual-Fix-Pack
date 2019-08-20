@@ -1,37 +1,31 @@
-"VertexLitGeneric"
+"VertexlitGeneric"
 {
-	"$basetexture" "models/player/engineer/engineer_mech_hand"
-	"$bumpmap"     "models/player/engineer/engineer_mech_hand_phongmask"
-
-	"$yellow" "0"
-	"$glowcolor" "1"
+	"$baseTexture" "models/workshop/weapons/c_models/c_detonator/c_detonator"
+	"$basemapalphaphongmask" 1
 
 	"$phong" "1"
-	"$phongexponent" "20"
-	"$phongboost" ".8"	
-	"$bumpmapalphaphongmask" "1"
-	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
-	"$phongfresnelranges"	"[.3 1 8]"
+	"$phongexponent" "30"
+	"$phongboost" "10"	
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges" "[0.45 0.7 1]"
 
-	"$detail" "effects/tiledfire/fireLayeredSlowTiled512"
-	"$detailscale" "5"
-	"$detailblendfactor" .01
-	"$detailblendmode" 6
+	"$glowcolor" "1"
 
-	// Rim lighting parameters
-	"$rimlight" "1"												// To enable rim lighting (requires phong)
-	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
-	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+	"$rimlight" "1"
+	"$rimlightexponent" "20"	
+	"$rimlightboost" "0.25"
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
-
 	"$sheenPassEnabled" "1"
+
 	"$sheenmap" 		"cubemaps/cubemap_sheen001"
 	"$sheenmapmask" 		"Effects/AnimatedSheen/animatedsheen0"
 	"$sheenmaptint" 		"[ 1 1 1 ]"
 	"$sheenmapmaskframe" 	"0"
 	"$sheenindex" 		"0"
+
+	"$yellow" "0"
 
 	"Proxies"
 	{
@@ -67,6 +61,9 @@
 			"srcVar1" "$color2"
 			"srcVar2" "$yellow"
 			"resultVar" "$color2"
+		}
+		"WeaponSkin"
+		{
 		}
 	}
 }
