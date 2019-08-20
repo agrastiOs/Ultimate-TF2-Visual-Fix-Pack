@@ -5,6 +5,8 @@ Contains models, materials, textures, particles, and source files that can be ea
 
 Highlights of the pack:
 
+* Many stock weapons got the good/proper shading parameters which were destroyed in Love and War and Gun Mettle.
+* Many non stock weapons also got improved to be closer to the old stock weapon style and are more consistent.
 * Some weapons with missing LODs and bad smoothing have been fixed.
 * Fixed many weapons missing glows when critical hit boosted.
 * Fixed some cosmetics sometimes becoming completely neon colored. (Being completely glowing white/yellow/blue)
@@ -15,11 +17,7 @@ Highlights of the pack:
 * Explosions have been improved, they look slightly better and have less annoying smoke with shorter lifetime and more transparency. Additionally a new Rocket/Sticky Jumper explosion has been made that fits the Jumper theme.
 * Fixed Photo Badge and Clan Pride to actually have the default texture the creators intended to be used. Valve said they will fix it 5 years ago, but it never happened.
 * Fixed Dragon Fury itself looking bland, and Thermal Thruster has a better texture now (and synced up particles with the thrusters bursts!)
-* Antarctic Eyewear white glasses fix from the creator.
-* General cosmetic fixes like fixing bad vmt parameters and bad/wrong team texture colors. (E.g. Several Ellis' Cap reskin cosmetics with bad materials now look much better, Pocket Medic's Heavy version no longer looks bland, Tyurtlenek's blue texture now matches with Heavy's shirt, Lucky Shot now looks consitent with Soldier's actual helmet and such and similar fixes are included).
-* Many stock weapons got the good/proper shading parameters which were destroyed in Love and War and Gun Mettle.
-* Many non stock weapons also got improved to be closer to the old stock weapon style and are more consistent.
-
+* General cosmetic fixes like fixing bad vmt parameters and bad/wrong team texture colors. (E.g. Several Ellis' Cap reskin cosmetics with bad materials now look much better, Pocket Medic's Heavy version no longer looks bland, Tyurtlenek's blue texture now matches with Heavy's shirt, Lucky Shot now looks consitent with Soldier's actual helmet, Antartic Eyewear's white goggles problem (Fixed by item's creator) and such and similar fixes are included).
 Thanks to the contributors:
 
 * agrastiOs
