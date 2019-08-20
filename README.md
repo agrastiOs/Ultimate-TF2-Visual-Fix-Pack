@@ -5,7 +5,7 @@ Contains models, materials, textures, particles, and source files that can be ea
 
 Highlights of the pack:
 
-* Many stock weapons got the good/proper shading parameters which were destroyed in Love and War and Gun Mettle.
+* Many stock weapons got the good/proper shading parameters which were messed up in the Gun Mettle update.
 * Many non stock weapons also got improved to be closer to the old stock weapon style and are more consistent.
 * Some weapons with missing LODs and bad smoothing have been fixed.
 * Fixed many weapons missing glows when critical hit boosted.
