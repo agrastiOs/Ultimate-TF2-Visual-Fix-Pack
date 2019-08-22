@@ -1,7 +1,6 @@
 "VertexlitGeneric"
 {
 	"$baseTexture" "models/weapons/c_items/c_frontierjustice_xmas"
-	"$bumpmap" "models/effects/flat_normal" 
 
 	"$yellow" "0"
 

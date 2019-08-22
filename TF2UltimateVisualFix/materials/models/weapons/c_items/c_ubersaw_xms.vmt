@@ -1,7 +1,6 @@
 "VertexlitGeneric"
 {
 	"$baseTexture" "models/weapons/c_items/c_ubersaw_xms"
-	"$bumpmap" "models/effects/flat_normal" 
 
 	"$yellow" "0"
 
