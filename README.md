@@ -26,6 +26,3 @@ Thanks to the contributors:
 * nonhuman
 * N-Cognito
 * PieSavvy
-
-How to install:
-Considering the pack is still in development (it will be released soon), there's no .vpk to download yet. However, this pack can be easily installed by downloading the master.zip and dragging the "TF2UltimateVisualFix" folder to TF/custom in your TF2 directory.
