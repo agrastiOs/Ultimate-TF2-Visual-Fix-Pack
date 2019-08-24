@@ -1,5 +1,7 @@
 # Ultimate TF2 Visual Fix Pack
 
+![Ultimate TF2 Visual Fix Pack](https://repository-images.githubusercontent.com/137119799/07c36100-c67c-11e9-8e64-0a7d96c86704)
+
 A pack of visual fixes for TF2, to be sent to Valve.
 Contains models, materials, textures, particles, and source files that can be easily modified and compiled.
 
@@ -10,7 +12,7 @@ Highlights of the pack:
 * Some weapons with missing LODs and bad smoothing have been fixed.
 * Fixed many weapons missing glows when critical hit boosted.
 * Fixed Dragon's Fury to not be as laggy and blinding, also particle size now correctly is like the hitbox size and visually improved.
-* Fixed Pyro flames being blinding and ugly (now in Pre-JI style), and them just breaking completely sometimes.
+* Fixed Pyro flames being blinding and ugly (now in Pre-JI style), and them just breaking completely sometimes. Crit flames have also been improved so the vapor is no more completely separate from the flames.
 * Heavy's miniguns have good looking shells now, not the orange squares.
 * Muzzleflashes have been improved, for example Minigun's is similar to the pre-mid2012 one and pistol/revolver's flashes no longer lag behind and are more solid/locked.
 * Explosions have been improved, they look slightly better and have less annoying smoke with shorter lifetime and more transparency. Additionally a new Rocket/Sticky Jumper explosion has been made that fits the Jumper theme.
@@ -26,3 +28,6 @@ Thanks to the contributors:
 * nonhuman
 * N-Cognito
 * PieSavvy
+
+How to install:
+Considering the pack is still in development (it will be released soon), there's no .vpk to download yet. However, this pack can be easily installed by downloading the master.zip and dragging the "TF2UltimateVisualFix" folder to TF/custom in your TF2 directory.
