@@ -1,41 +1,30 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/weapons/c_models/c_shotgun/c_shotgun"
-	"$phongexponenttexture" "models/weapons/c_models/c_shotgun/c_shotgun_exp"
-	
+	"$baseTexture" "models/weapons/c_models/c_minigun/c_minigun_gold"
+	"$phongexponenttexture" "models/weapons/c_models/c_minigun/c_minigun_exp"	
+
 	"$phong" "1"
-
-	"$phongboost" "1.25"
-	"$phongalbedotint" "1"
-
-	//scales up the exponent texture which usually only has about 120 levels of exponent
-	"$phongexponentfactor"  "1000"
-
+	"$phongexponent" "165"
+	"$phongboost" "3"	
 	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges"	"[1.5 .5 3]"
 
-	"$phongfresnelranges"	"[.2 2.5 .5]"
+	// Begin GOLD look
+
+	"$envmap" "cubemaps/cubemap_gold001"	
+	"$envmaptint" "[2.5 2.5 1.15]"
 	
-	"$glowcolor" "1"
-
-	"$selfillum" 1
-	"$selfillumtint" "[5 3 .7]"
-	"$selfIllumFresnel" "1"
-	"$selfIllumFresnelMinMaxExp" "[-1 7.5 20]"
-
-	"$phongtint" "[.6 .5 .5]"
-
+	// End GOLD look
+	"$basemapalphaphongmask" "1"
 	
-
-	//commented out to use the exponent mask
-	//"$basephongexponent" "15"
-	//"$basephongboost" "3"
-
-	//"$basemapalphaphongmask" "1"
-
-	"$rimlight" "1"
-	"$rimlightexponent" "2"
-	"$rimlightboost" "1.0"
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" "3"
 	"$rimmask" "1"
+
+	"360?$color2" "[ 0.6 0.6 0.6 ]"
+
+	"$glowcolor" "1"
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
@@ -46,6 +35,7 @@
 	"$sheenmaptint" 		"[ 1 1 1 ]"
 	"$sheenmapmaskframe" 	"0"
 	"$sheenindex" 		"0"
+
 
 	"$yellow" "0"
 
@@ -83,9 +73,6 @@
 			"srcVar1" "$color2"
 			"srcVar2" "$yellow"
 			"resultVar" "$color2"
-		}
-	
-		"WeaponSkin" {
 		}
 	}
 }

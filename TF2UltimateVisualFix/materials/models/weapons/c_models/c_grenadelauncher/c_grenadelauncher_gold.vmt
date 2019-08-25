@@ -9,6 +9,7 @@
 	"$phongboost" "4"	
 	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
 	"$phongfresnelranges"	"[2 1 1]"
+
 	"$rimlight" "1"						
 	"$rimlightexponent" "10"				
 	"$rimlightboost" "1"
