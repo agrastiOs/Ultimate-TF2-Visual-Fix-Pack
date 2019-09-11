@@ -11,11 +11,6 @@
 	"$detailblendfactor" "0.8"
 	"$detailblendmode" "1"
 	//
-	
-	"$detail" "effects/tiledfire/fireLayeredSlowTiled512"
-	"$detailscale" "5"
-	"$detailblendfactor" .01
-	"$detailblendmode" 6
 
 	"$phong" "1"
 	"$phongboost" "1.5"

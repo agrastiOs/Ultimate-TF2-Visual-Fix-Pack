@@ -17,7 +17,7 @@
 	}
 	"<DX90"
 	{
-		"$normalmapalphaenvmapmask" 1 
+		"$envmapmask" "models/effects/flat_normal"  
 	}
 	
 	// Cloaking
