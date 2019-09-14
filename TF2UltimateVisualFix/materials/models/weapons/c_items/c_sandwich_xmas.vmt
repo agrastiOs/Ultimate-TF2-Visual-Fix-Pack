@@ -14,12 +14,12 @@
 	"$rimlight"	"1"
 	"$rimlightexponent"	"1"
 
-	"$tempvar" "{256 256 256}"
-
  	"$blendtintbybasealpha" "1" 
  	"$blendtintcoloroverbase" "0"  
 
-	"$colortint" "{194 45 48}"
+	"$color2" "{194 45 48}"
+
+	"$tempvar" "{256 256 256}"
 	
 	"$glowcolor" "1"
 
@@ -54,11 +54,6 @@
         	{
 			"srcVar1"  "$glowcolor"
 			"resultVar" "$selfillumtint"
-        	}
-		"Equals"
-        	{
-			"srcVar1"  "$colortint"
-			"resultVar" "$color2"
         	}
 		"LessOrEqual"
         	{
