@@ -1,6 +1,6 @@
 "VertexlitGeneric"
 {
-	"$baseTexture" "models\weapons\c_items/c_sandwich_xmas"
+	"$baseTexture" "models\weapons\c_items/c_sandwich_xmas_blue"
 	"$bumpmap" "models\weapons\c_items/c_sandwich_xmas_normal"
 
 	"$lightwarptexture" "models\lightwarps\softened_weapon_lightwarp"
