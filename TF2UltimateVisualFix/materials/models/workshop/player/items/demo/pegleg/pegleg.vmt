@@ -16,13 +16,11 @@
 	"$detailblendmode" 6
 
 	// Rim lighting parameters
-	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlight" "1"											// To enable rim lighting (requires phong)
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
 	"$rimlightboost" "2"	
 
-	"$glowcolor" "1"
 	"$cloakPassEnabled" "1"
-
 	"$yellow" "0"
 
 	"Proxies"
@@ -30,28 +28,23 @@
 		"invis"
 		{
 		}
-		"ModelGlowColor"
+		"AnimatedTexture"
 		{
-			"resultVar" "$glowcolor"
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
 		}
-		"Equals"
+		"BurnLevel"
 		{
-			"srcVar1"  "$glowcolor"
-			"resultVar" "$selfillumtint"
-		}
-		"Equals"
-		{
-			"srcVar1"  "$glowcolor"
-			"resultVar" "$color2"
+			"resultVar" "$detailblendfactor"
 		}
 		"YellowLevel"
 		{
 			"resultVar" "$yellow"
 		}
-		"Multiply"
+		"Equals"
 		{
-			"srcVar1" "$color2"
-			"srcVar2" "$yellow"
+			"srcVar1" "$yellow"
 			"resultVar" "$color2"
 		}
 	}

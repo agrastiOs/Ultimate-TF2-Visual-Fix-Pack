@@ -13,14 +13,7 @@
 	"$detailblendfactor" .01
 	"$detailblendmode" 6
 
-	"$glowcolor" "1"
 	"$speccolor" "1"
-
-	"$tempvar" "0"
-	
-	"$commadd_phongexponent" "30"
-	"$commadd_phongboost" 	"22.5"	
-	"$commweapon"		"0"
 
 	"$basemapalphaphongmask" "1"
 	
@@ -47,66 +40,27 @@
 
 	"Proxies"
 	{
-		"AnimatedWeaponSheen"
-		{
-			"animatedtexturevar" 		"$sheenmapmask"
-			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
-			"animatedtextureframerate" 		"40"
-		}
 		"invis"
 		{
 		}
-		"ModelGlowColor"
+		"AnimatedTexture"
 		{
-			"resultVar" "$glowcolor"
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
 		}
-		"Equals"
+		"BurnLevel"
 		{
-			"srcVar1"  "$glowcolor"
-			"resultVar" "$selfillumtint"
-		}
-		"Equals"
-		{
-			"srcVar1"  "$glowcolor"
-			"resultVar" "$color2"
+			"resultVar" "$detailblendfactor"
 		}
 		"YellowLevel"
 		{
 			"resultVar" "$yellow"
 		}
-		"Multiply"
+		"Equals"
 		{
-			"srcVar1" "$color2"
-			"srcVar2" "$yellow"
+			"srcVar1" "$yellow"
 			"resultVar" "$color2"
-		}
-		"CommunityWeapon"
-		{
-			"resultVar" "$commweapon"
-		}
-		"Multiply"
-		{
-			"srcVar1"  "$commweapon"
-			"srcVar2"  "$commadd_phongexponent" 
-			"resultVar" "$tempvar" 
-		}
-		"Add"
-		{
-			"srcVar1"  "$tempvar" 
-			"srcVar2"  "$basephongexponent" 
-			"resultVar" "$phongexponent" 
-		}
-		"Multiply"
-		{
-			"srcVar1"  "$commweapon"
-			"srcVar2"  "$commadd_phongboost" 
-			"resultVar" "$tempvar" 
-		}
-		"Add"
-		{
-			"srcVar1"  "$tempvar" 
-			"srcVar2"  "$basephongboost"
-			"resultVar" "$phongboost" 
 		}
 	}
 }
