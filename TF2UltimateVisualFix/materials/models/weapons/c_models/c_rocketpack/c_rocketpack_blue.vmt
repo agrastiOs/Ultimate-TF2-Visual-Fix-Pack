@@ -48,6 +48,10 @@
 		{
 			"resultVar" "$yellow"
 		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
 		"Multiply"
 		{
 			"srcVar1" "$color2"
