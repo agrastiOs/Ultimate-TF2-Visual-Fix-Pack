@@ -1,21 +1,15 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/bots/engineer/engineer_bot_head_blue"
+	"$basetexture" "models\bots\heavy\heavy_bot_head"
 	
 	"$phong" "1"
 	"$phongboost" "2"	
 	"$phongfresnelranges"	"[.6 .9 1]"
 	"$halflambert" "0"
-	"$phongexponenttexture" "models/bots/heavy/heavy_bot_head_exp"
-
-	">=DX90"
-   	 {
-		"$selfillum" "1"
-		"$selfillummask" "models/bots/engineer/engineer_bot_head_illum"
-	}
+	"$phongexponenttexture" "models\bots\heavy\heavy_bot_head_exp"
 
 
-	"$lightwarptexture" "models/lightwarps/robot_lightwarp"
+	"$lightwarptexture" "models\lightwarps\robot_lightwarp"
 
 	"$basemapalphaphongmask" "1"
 
@@ -64,4 +58,3 @@
 
 	}
 }
-

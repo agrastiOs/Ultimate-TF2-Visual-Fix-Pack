@@ -8,6 +8,12 @@
 	"$halflambert" "0"
 	"$phongexponenttexture" "models/bots/heavy/heavy_bot_head_exp"
 
+	">=DX90"
+   	 {
+		"$selfillum" "1"
+		"$selfillummask" "models/bots/engineer/engineer_bot_head_illum"
+	}
+
 
 	"$lightwarptexture" "models/lightwarps/robot_lightwarp"
 
