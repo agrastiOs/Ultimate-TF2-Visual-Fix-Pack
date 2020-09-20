@@ -7,8 +7,10 @@ Contains models, materials, textures, particles, and source files that can be ea
 
 Highlights of the pack:
 
-* Many stock weapons got the good/proper shading parameters which were messed up in the Gun Mettle update.
-* Many non stock weapons also got improved to be closer to the old stock weapon style and are more consistent.
+* Many stock weapons got the good/proper shading parameters which were messed up mainly in the Gun Mettle (a few other updates also degraded viewmodel quality) update.
+* Many non-stock weapons also got improved to be closer to the old stock weapon style and are more consistent.
+* Some weapons with incorrect lightwarps received the good looking and correct "weapon" lightwarp.
+* A consistency pass for both stock and non-stock: the few weapons which had the ugly (particularly in darker environments or places with bright cubemap) environmental cube map applied have been fixed, glass for all weapons is now more and less consistent.
 * Some weapons with missing LODs and bad smoothing have been fixed.
 * Fixed many weapons missing glows when critical hit boosted.
 * Fixed Dragon's Fury to not be as laggy and blinding, also particle size now correctly is like the hitbox size and visually improved.
@@ -24,10 +26,11 @@ Highlights of the pack:
 
 Thanks to the contributors:
 
-* agrastiOs
-* nonhuman
-* N-Cognito
+* **agrastiOs**
+* **Nonhuman**
+* **N-Cognito**
 * PieSavvy
+* JarateKing
 
 How to install:
 Go to the Releases section!
