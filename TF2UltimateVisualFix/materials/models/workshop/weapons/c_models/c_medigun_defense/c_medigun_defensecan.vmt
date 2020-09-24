@@ -12,7 +12,6 @@
 	"$phongexponent" "65"
 	"$phongfresnelranges" "[1 2 4]"	
 	"$lightwarptexture" "models/lightwarps/jarate_lightwarp"
-	"$phongfresnelranges"	"[.3 1 8]"
 	"$phongboost" "6"
 
  	"$blendtintbybasealpha" "1" 
