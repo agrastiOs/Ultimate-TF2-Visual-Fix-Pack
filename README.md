@@ -1,5 +1,3 @@
-# Ultimate TF2 Visual Fix Pack
-
 ![Ultimate TF2 Visual Fix Pack](https://repository-images.githubusercontent.com/137119799/07c36100-c67c-11e9-8e64-0a7d96c86704)
 
 ### What *is* the pack?
