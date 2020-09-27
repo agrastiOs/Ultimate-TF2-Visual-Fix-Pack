@@ -41,5 +41,5 @@ Thanks to the contributors:
 
 ---
 
-## How to install:
+## Download instructions
 Go to the Releases section!
