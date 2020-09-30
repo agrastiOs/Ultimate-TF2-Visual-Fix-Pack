@@ -9,8 +9,8 @@
 	"$basemapalphaphongmask"	"1"
 
 	"$phong" "1"
-	"$phongexponent" "60"
-	"$phongboost" "5"
+	"$phongexponent" "50"
+	"$phongboost" "2"
 	"$phongfresnelranges"	"[.2 1 4]"
 		
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
