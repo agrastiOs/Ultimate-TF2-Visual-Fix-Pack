@@ -1,24 +1,20 @@
 "VertexlitGeneric"
 {
-	"$baseTexture" "models/weapons/c_items/c_saxxy"
-	"$bumpmap" "models/weapons/c_items/c_saxxy_normal"	
-	
+	"$baseTexture" "models/weapons/c_items/c_saxxy"	
 	"$yellow" "0"
 
 	"$envmap" "cubemaps/cubemap_gold001"
 	"$envmaptint" "[1 .95 .3]"
 	
-	"$bumpmapalphaenvmapmask" "1"
-
-	"$basemapalphaphongmask"	"0"
+	"$basemapalphaphongmask"	"1"
 
 	"$phong" "1"
-	"$phongexponent" "50"
-	"$phongboost" "2"
+	"$phongexponent" "60"
+	"$phongboost" "5"
 	"$phongfresnelranges"	"[.2 1 4]"
 		
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
-	
+
 	"$rimlight" "1"
 	"$rimlightexponent" "4"
 	"$rimlightboost" "2"

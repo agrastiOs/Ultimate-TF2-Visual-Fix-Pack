@@ -13,7 +13,7 @@
 	"$phong" "1"
 	"$phongexponent" "10"
 	"$phongboost" "10"
-	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
 	"$phongfresnelranges"	"[.3 1 8]"
 	"$halflambert" "1"
 
