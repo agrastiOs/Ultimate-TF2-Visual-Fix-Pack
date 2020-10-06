@@ -7,9 +7,6 @@
 	"$phongboost" "5"	
 	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
 	"$phongfresnelranges"	"[1.5 .5 3]"
-	
-
-	
 
 	"$basephongexponent" "15"
 	"$basephongboost" "5"
@@ -25,8 +22,8 @@
 	"$basemapalphaphongmask" "1"
 	
 	"$rimlight" "1"						
-	"$rimlightexponent" "20"				
-	"$rimlightboost" "4"
+	"$rimlightexponent" "4"				
+	"$rimlightboost" "2"
 
 	"$glowcolor" "1"
 

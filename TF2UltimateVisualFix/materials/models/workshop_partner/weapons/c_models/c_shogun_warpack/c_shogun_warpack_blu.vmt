@@ -5,7 +5,6 @@
 	"$detailscale" "5"
 	"$detailblendfactor" .01
 	"$detailblendmode" 6
-	"$yellow" "0"
 
 
 	"$phong" "1"

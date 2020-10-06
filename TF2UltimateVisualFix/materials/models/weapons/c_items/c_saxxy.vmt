@@ -5,8 +5,6 @@
 
 	"$envmap" "cubemaps/cubemap_gold001"
 	"$envmaptint" "[1 .95 .3]"
-	
-	"$basemapalphaphongmask"	"1"
 
 	"$phong" "1"
 	"$phongexponent" "50"
