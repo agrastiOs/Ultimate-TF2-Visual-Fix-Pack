@@ -1,6 +1,6 @@
 ![Ultimate TF2 Visual Fix Pack](https://repository-images.githubusercontent.com/137119799/07c36100-c67c-11e9-8e64-0a7d96c86704)
 
-***Now a version of this pack is in Team Comtress 2 https://github.com/mastercomfig/team-comtress-2***
+***A version of this pack is now in Team Comtress 2 https://github.com/mastercomfig/team-comtress-2***
 
 ### What *is* the pack?
 
