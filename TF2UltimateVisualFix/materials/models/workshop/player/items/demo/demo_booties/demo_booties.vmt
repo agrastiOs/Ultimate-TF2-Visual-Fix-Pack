@@ -11,7 +11,7 @@
 	"$phong" "1"
 	"$phongexponent" "5"
 	"$phongboost" "1"	
-	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$lightwarptexture" "models\lightwarps\softened_weapon_lightwarp"
 	"$phongfresnelranges"	"[.15 .5 1]"
 	"$basemapalphaphongmask" "1"
 

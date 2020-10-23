@@ -1,5 +1,7 @@
 ![Ultimate TF2 Visual Fix Pack](https://repository-images.githubusercontent.com/137119799/07c36100-c67c-11e9-8e64-0a7d96c86704)
 
+*** Now a version of this pack is in Team Comtress 2 https://github.com/mastercomfig/team-comtress-2***
+
 ### What *is* the pack?
 
 It is a pack of visual fixes for TF2, to be sent to Valve. Not a subjective "overhaul" texture pack, but is intended to fix visual issues and revert not performance-related visual downgrades. Fixes are made in-house or by the original item creator, which are also looked into pretty deeply and compared with the art style of the game if sometimes questions arise. "Subjective" visual improvements are avoided, and nothing too drastic because this, as mentioned before, will be presented to Valve.

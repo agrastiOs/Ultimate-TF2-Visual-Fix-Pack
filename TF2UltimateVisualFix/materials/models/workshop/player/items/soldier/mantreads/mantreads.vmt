@@ -5,7 +5,7 @@
 	"$phong" "1"
 	"$phongexponent" "10"
 	"$phongboost" "0.2"	
-	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$lightwarptexture" "models\lightwarps\softened_weapon_lightwarp"
 	"$phongfresnelranges"	"[1 2.5 5]"	
 
 	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
