@@ -1,6 +1,7 @@
 ![Ultimate TF2 Visual Fix Pack](https://repository-images.githubusercontent.com/137119799/07c36100-c67c-11e9-8e64-0a7d96c86704)
 
 ***A version of this pack is now in [Team Comtress 2](https://github.com/mastercomfig/team-comtress-2)***
+
 ***The pack is now included with the [Creators.TF Community Launcher](https://github.com/agrastiOs/Ultimate-TF2-Visual-Fix-Pack
 ), which can also auto-update the pack!***
 ### What *is* the pack?
