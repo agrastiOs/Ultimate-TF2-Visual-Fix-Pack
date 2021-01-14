@@ -17,7 +17,8 @@ Highlights of the pack:
 * Many stock weapons got the good/proper shading parameters which were messed up mainly in the Gun Mettle (a few other updates also degraded viewmodel quality) update.
 * Many non-stock weapons also got improved to be closer to the old stock weapon style and are more consistent.
 * Some weapons with incorrect lightwarps received the good looking and correct "weapon" lightwarp.
-* A consistency pass for both stock and non-stock: the few weapons which had the ugly (particularly in darker environments or places with bright cubemap) environmental cube map applied have been fixed, glass for all weapons is now more and less consistent.
+* Several weapons that were missing proper lighting parameters entirely/used incorrect parameters for cosmetics received proper parameters.
+* A consistency pass for both stock and non-stock: the few weapons which had the ugly (particularly in darker environments or places with bright cubemap) environmental cube map applied have been fixed, glass for all weapons is now more or less consistent.
 * Wearable weapons received some fixes too, including the Gunboats looking like intended, and all wearable weapons received a consistent lightwarp for visibility and consistency purposes.
 * Sentry Buster not being visibly Jarate'd and Ubered has been fixed, plus the Engineer and Heavy bots' heads aren't glowing anymore, the Engineer was given team-colored glowing eyes.
 * Some weapons with missing LODs and bad smoothing have been fixed.
