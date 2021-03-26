@@ -23,11 +23,11 @@ Highlights of the pack:
 * Fixed many weapons missing glows when critical hit boosted.
 * Fixed some cosmetics sometimes becoming completely neon-colored (Being completely glowing white/yellow/blue).
 * General cosmetic fixes like fixing bad .vmt parameters and bad/wrong team texture colors. (e.g., several Ellis' Cap reskin cosmetics that had bad materials now look much better, Pocket Medic's Heavy version no longer looks bland and a Spy disguised as a Heavy equipping the cosmetic can fully cloak now, Tyurtlenek's blue texture now matches with Heavy's shirt, Lucky Shot now looks consistent with Soldier's actual helmet, Antarctic Eyewear's white goggles problem (fixed by item's creator) and such and similar fixes are included.)
-* Heavy's miniguns have good looking shells now, not the orange squares.
+* Heavy's miniguns have 3D looking shells now, not the orange squares.
 * Many non-stock weapons also got improved to be closer to the old stock weapon style and are more consistent.
 * Many stock weapons got the good/proper shading parameters which were messed up mainly in the Gun Mettle (a few other updates also degraded viewmodel quality) update.
 * Muzzleflashes have been improved, for example, Minigun's is similar to the pre-Mecha Update one and the pistol/revolver's flashes no longer lag and are more solid/locked.
-* Sentry Buster not being visibly Jarate'd and Ubered has been fixed, plus the Engineer and Heavy bots' heads aren't glowing anymore, the Engineer was given team-colored glowing eyes.
+* Sentry Buster not being visibly Jarate'd and Ubered has been fixed, the Engineer and Heavy bots' heads aren't glowing anymore, additionally, the Engineer was given team-colored glowing eyes.
 * Several weapons that were missing proper lighting parameters entirely/used incorrect parameters for cosmetics received proper parameters.
 * Some weapons with incorrect lightwarps received the good looking and correct "weapon" lightwarp.
 * Some weapons with missing LODs and bad smoothing have been fixed.
