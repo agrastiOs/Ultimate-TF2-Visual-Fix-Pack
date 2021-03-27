@@ -12,7 +12,7 @@ Contains models, materials, textures, particles, and source files that can be ea
 
 ---
 
-Highlights of the pack:
+### Highlights of the pack:
 
 * A consistency pass for both stock and non-stock: the few weapons which had the ugly (particularly in darker environments or places with bright cubemap) environmental cube map applied have been fixed, glass for all weapons is now more or less consistent.
 * Explosions have been improved, they look slightly better and have less annoying smoke with a shorter lifetime and more transparency. Additionally, a new Rocket/Sticky Jumper explosion has been made that fits the Jumper theme.
@@ -36,7 +36,7 @@ Highlights of the pack:
 
 ---
 
-Thanks to the contributors:
+### Thanks to the contributors:
 
 * **agrastiOs**
 * **Nonhuman**
