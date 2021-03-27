@@ -2,7 +2,7 @@
 
 ***A version of this pack is now in [Team Comtress 2](https://github.com/mastercomfig/team-comtress-2)!***
 
-***The pack is now included with the [Creators.TF Community Launcher](https://github.com/ampersoftware/Creators.TF-Community-Launcher/releases
+***The pack is now included with the [Creators.TF Community Launcher](https://creators.tf/launcher
 ), which can also auto-update the pack!***
 ### What *is* the pack?
 
