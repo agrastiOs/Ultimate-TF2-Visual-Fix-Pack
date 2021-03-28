@@ -1,0 +1,69 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/pyro/sombrero_red"
+ 
+	"$bumpmap" "models/effects/flat_normal" 
+
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"              
+	"$detailscale" "5"
+	"$detailblendfactor" .01
+	"$detailblendmode" 6
+
+	"$yellow" "0"
+
+	"$blendtintbybasealpha" "1" 
+	"$blendtintcoloroverbase" "1"   // between 0-1 determines how much blended by tinting vs. replacing the color
+
+	"$colortint_base" "{158 63 40}"  // put the RGB value of whats being colored when no paint is present, if $blendtintcoloroverbase is 0 then put [1 1 1] here.
+	"$colortint_tmp" "[0 0 0]"
+
+	"$phong" "1"
+	"$phongexponent" "12"
+	"$phongboost" ".1"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges" "[.25 1 4]"
+
+
+	// Rim lighting parameters
+	"$rimlight" "1"                                                                                                                                                                                   // To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"                                                                                                                                                               // Exponent for phong component of rim lighting       
+	"$rimlightboost" "2"       
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"ItemTintColor"
+		{
+			"resultVar" "$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"	"$colortint_tmp"
+			"srcVar2"	"$colortint_base"
+			"resultVar" "$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

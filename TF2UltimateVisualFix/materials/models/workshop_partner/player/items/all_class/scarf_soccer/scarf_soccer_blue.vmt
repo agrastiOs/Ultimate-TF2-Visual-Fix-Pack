@@ -13,7 +13,7 @@
 
 	"$rimlight" "1"
 	"$rimlightexponent" "20"
-	"$rimlightboost" "4"
+	"$rimlightboost" "0.7"
 	$nocull "1"
 	
 	// Cloaking

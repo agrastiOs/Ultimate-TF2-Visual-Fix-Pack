@@ -19,7 +19,7 @@
 	
 	"$rimlight" "1"						
 	"$rimlightexponent" "20"				
-	"$rimlightboost" "3"
+	"$rimlightboost" "0.5"
 	"$rimmask" "1"
 
 	"360?$color2" "[ 0.6 0.6 0.6 ]"

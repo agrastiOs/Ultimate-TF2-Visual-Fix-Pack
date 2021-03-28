@@ -1,32 +1,24 @@
 "VertexlitGeneric"
 {
-	"$baseTexture" "models/player/items/all_class/professor_shades"
-	"$bumpmap" "models/player/items/all_class/professor_shades_normal"
-	"$detail" 	"effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$baseTexture" "models/player/items/all_class/trn_wiz_hat_red"
+
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512"
 	"$detailscale" "5"
 	"$detailblendfactor" .01
 	"$detailblendmode" 6
-	"$yellow" "0"
-	
-	
-	">=DX90"
-	{
-		"$envmap"		"env_cubemap"
-	}
-	"$normalmapalphaenvmapmask" 1 
-	//"$baseAlphaEnvMapMask" "1" 
-	"$basemapalphaphongmask" "1"
-	
-	"$phong" "1"
-	"$phongexponent" ".1"
-	"$phongboost" "5"
-	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
-	"$phongfresnelranges"	"[.25 1 4]"
 
+	"$yellow" "0"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "5"
+	"$phongfresnelranges" "[.25 .5 1]"
+	"$basemapalphaphongmask" "1"
 	"$rimlight" "1"
-	"$rimlightexponent" "30"
-	"$rimlightboost" "0.6"
-	//Cloaking
+	"$rimlightexponent" "4"
+	"$rimlightboost" "1"
+
 	"$cloakPassEnabled" "1"
 
 	"Proxies"
@@ -50,7 +42,7 @@
 		}
 		"Equals"
 		{
-			"srcVar1"  "$yellow"
+			"srcVar1" "$yellow"
 			"resultVar" "$color2"
 		}
 	}
