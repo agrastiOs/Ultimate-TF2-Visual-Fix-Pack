@@ -4,9 +4,9 @@
 
 ***The pack is now included with the [Creators.TF Community Launcher](https://creators.tf/launcher
 ), which can also auto-update the pack!***
-### What *is* the pack?
+### What UVF *is*?
 
-It is a pack of visual fixes for TF2, to be sent to Valve. Not a subjective "overhaul" texture pack, but is intended to fix visual issues and revert not performance-related visual downgrades. Fixes are made in-house or by the original item creator, which are also looked into pretty deeply and compared with the art style of the game if sometimes questions arise. "Subjective" visual improvements are avoided, and nothing too drastic because this, as mentioned before, will be presented to Valve.
+It is a pack of visual fixes for TF2, to be sent to Valve. Not intended to be a subjective "overhaul" texture pack, but is intended to fix visual issues and revert not performance-related visual downgrades. Fixes are made in-house or by the original item creator, which are also looked into pretty deeply and compared with the art style of the game if sometimes questions arise. "Subjective" visual improvements are avoided, and nothing too drastic because this, as mentioned before, will be presented to Valve.
 
 Contains models, materials, textures, particles, and source files that can be easily modified and compiled.
 
