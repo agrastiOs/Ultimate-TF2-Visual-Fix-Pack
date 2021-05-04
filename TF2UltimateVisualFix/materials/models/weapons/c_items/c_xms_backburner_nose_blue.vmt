@@ -14,7 +14,7 @@
 	"$phongboost" "1"
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
 	"$phongfresnelranges"	"[.25 1 4]"
-	"$phongtint"  "[1 0 0]"
+	"$phongtint"  "[0 .1 1]"
 	
 	"$basemapalphaphongmask" 1
 
