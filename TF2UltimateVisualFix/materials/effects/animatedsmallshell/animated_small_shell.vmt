@@ -1,6 +1,0 @@
-"SpriteCard"
-{
-	"$baseTexture" "Effects/animatedsmallshell/animated_small_shell"
-	$translucent 1
-	$depthblend 0
-}
