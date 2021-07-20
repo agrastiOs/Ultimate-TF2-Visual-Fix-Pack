@@ -18,7 +18,7 @@ Contains models, materials, textures, particles, and source files that can be ea
 * Explosions have been improved, they look slightly better and have less annoying smoke with a shorter lifetime and more transparency. Additionally, a new Rocket/Sticky Jumper explosion has been made that fits the Jumper theme.
 * Fixed Dragon Fury itself looking bland, and Thermal Thruster has a better texture now (and synced up particles with the thrusters bursts!).
 * Fixed Dragon's Fury to not be as laggy and blinding, also particle size now correctly is like the hitbox size and visually improved.
-* Fixed killstreak sheens to work on weapons like the Prinny Machete and the Conscientious Objector.
+* Fixed killstreak sheens to work on weapons like the Prinny Machete and the Crossing Guard.
 * Fixed Photo Badge and Clan Pride to have the default texture the creators intended to be used. Valve said they will fix it 5 years ago, but it never happened.
 * Fixed Pyro flames being blinding and ugly (now in Pre-JI style), and them just breaking completely sometimes. Crit flames have also been improved so the vapor is no more completely separate from the flames.
 * Fixed many weapons missing glows when critical hit boosted.

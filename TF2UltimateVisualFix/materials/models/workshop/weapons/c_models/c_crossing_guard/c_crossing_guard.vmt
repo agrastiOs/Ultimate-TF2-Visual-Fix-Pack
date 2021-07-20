@@ -1,0 +1,56 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/workshop/weapons/c_models/c_crossing_guard/c_crossing_guard"
+	"$bumpmap" "models/player/shared/shared_normal"
+
+	"$phong" "1"
+	"$phongexponent" "7"
+	"$phongtint" "[0.7 0.75 .9]"
+	"$phongboost" ".5"	
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges"	"[.3 .5 3]"
+	"$basemapalphaphongmask" "1"
+	
+	"$rimlight" "1"					
+	"$rimlightexponent" "2"		
+	"$rimlightboost" "1"
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"$sheenPassEnabled" "1"
+
+	"$yellow" "0"
+
+	"Proxies"
+	{
+		"AnimatedWeaponSheen"
+		{
+			"animatedtexturevar" 		"$sheenmapmask"
+			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
+			"animatedtextureframerate" 		"40"
+		}
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1" "$color2"
+			"srcVar2" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}
