@@ -15,7 +15,7 @@
  	"$blendtintbybasealpha" "1" 
 	"$blendtintcoloroverbase" "1"  
 
-	"$color2" "{108 177 231}"
+	"$colortint" "{108 177 231}"
 
 	"$tempvar" "{256 256 256}"
 
@@ -62,7 +62,7 @@
 		"LessOrEqual"
         	{
                		"LessEqualVar" "$glowcolor"
-               		"greaterVar" "$color2"
+               		"greaterVar" "$colortint"
         	        "srcVar1" "$tempvar"
        		     	"srcVar2" "$glowcolor"
        		     	"resultVar" "$color2"

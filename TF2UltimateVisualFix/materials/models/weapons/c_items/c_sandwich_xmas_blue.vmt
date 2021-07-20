@@ -17,9 +17,7 @@
  	"$blendtintbybasealpha" "1" 
  	"$blendtintcoloroverbase" "0"  
 
-	"$colortint_base" "{56 93 125}"  
-	"$colortint_tmp" "[0 0 0]"
-	"$colortint" "[0 0 0]"
+	"$colortint" "{56 93 125}"
 
 	"$tempvar" "{256 256 256}"
 	
@@ -48,33 +46,23 @@
 		"invis"
 		{
 		}
-  		"ItemTintColor"
-  		{
-   			"resultVar" "$colortint_tmp"
-  		}
 		"ModelGlowColor"
-		{
+        	{
          	   	"resultVar" "$glowcolor"
-		}
-		"Equals"
-		{
+        	}
+       	 	"Equals"
+        	{
 			"srcVar1"  "$glowcolor"
 			"resultVar" "$selfillumtint"
-		}
-  		"SelectFirstIfNonZero"
-  		{
-   			"srcVar1" "$colortint_tmp"
-   			"srcVar2" "$colortint_base"
-   			"resultVar" "$colortint"
-  		}
+        	}
 		"LessOrEqual"
-		{
-			"LessEqualVar" "$glowcolor"
-			"greaterVar" "$colortint"
-			"srcVar1" "$tempvar"
-			"srcVar2" "$glowcolor"
-			"resultVar" "$color2"
-		}
+        	{
+               		"LessEqualVar" "$glowcolor"
+               		"greaterVar" "$colortint"
+        	        "srcVar1" "$tempvar"
+       		     	"srcVar2" "$glowcolor"
+       		     	"resultVar" "$color2"
+        	}
 		"YellowLevel"
 		{
 			"resultVar" "$yellow"
