@@ -6,7 +6,7 @@
 ), which can also auto-update it!***
 ### What *is* UVF?
 
-It is a pack of visual fixes for TF2, to be sent to Valve. Not intended to be a subjective "overhaul" texture pack, but is intended to fix visual issues and revert not performance-related visual downgrades. Fixes are made in-house or by the original item creator, which are also looked into pretty deeply and compared with the art style of the game if sometimes questions arise. "Subjective" visual improvements are avoided, and nothing too drastic because this, as mentioned before, will be presented to Valve, both as it whole and a-la-carte.
+It is a pack of visual fixes for TF2, to be sent to Valve. Not intended to be a subjective "overhaul" texture pack, but is intended to fix visual issues and revert not performance-related visual downgrades. Fixes are made in-house or by the original item creator, which are also looked into pretty deeply and compared with the art style of the game if sometimes questions arise. "Subjective" visual improvements are attempted to be avoided (worst case the general community consensus goes), and nothing too drastic because this, as mentioned before, will be presented to Valve, both as it whole and a-la-carte.
 
 Contains models, materials, textures, particles, and source files that can be easily modified and compiled.
 
