@@ -1,0 +1,10 @@
+"SpriteCard"
+{
+	"$baseTexture" "Effects\AnimatedTentMonster/animated_tentmonster01"
+	$translucent 1
+	$overbrightfactor 0.75
+	$vertexalpha 1
+	$vertexcolor 1
+	$depthblend 0
+}
+

@@ -1,0 +1,9 @@
+"SpriteCard"
+{
+	"$baseTexture" "Effects\AnimatedRock/animated_rock"
+	$translucent 1
+	$overbrightfactor 2
+	$vertexalpha 1
+	$vertexcolor 1
+	$depthblend 0
+}

@@ -1,0 +1,7 @@
+"Spritecard"
+{
+	"$baseTexture" "Effects\AnimatedCards/animated_cards_blue"
+	$translucent 1
+	$overbrightfactor 1
+	$depthblend 0
+}

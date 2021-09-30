@@ -1,0 +1,7 @@
+"Spritecard"
+{
+	"$baseTexture" "Effects\AnimatedCash/animated_cash"
+	$translucent 1
+	$overbrightfactor 1.1
+	$depthblend 0
+}

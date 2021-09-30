@@ -1,0 +1,7 @@
+"Spritecard"
+{
+	"$basetexture" "effects/confetti/confetti"
+	"$translucent" 1
+	"$overbrightfactor" "4"
+	$depthblend 0
+}
