@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_halloween\haunted_eyeball_angry"
+	"$bumpmap" "models\props_halloween\haunted_eyeball_normal" 
+	"$surfaceprop"	"flesh"
+	"$one" "1"
+
+	"$nodecal" "1"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" ".3"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.1 1 8]"
+	"$halflambert" "0"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "2"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+	}
+}

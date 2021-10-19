@@ -1,0 +1,44 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/workshop/player/items/all_class/witchhat/witchhat_1_color"
+	"$yellow" "0"
+
+	"$selfillum" "1"
+	"$selfillumtint" "[3 3 3]"
+	"$phong" "1"
+	"$phongexponent" ".1"
+	"$phongboost" "1"
+	"$phongfresnelranges""[0.01 1 3]"
+
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	"$rimlight" "1"
+	"$rimlightexponent" ".014"
+	"$rimlightboost" "2"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sinemax" "1"
+			"sinemin" ".25"
+			"sineperiod" "2"
+			"resultvar" "$selfillumtint"
+		}
+		"weapon_invis"
+		{
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}
