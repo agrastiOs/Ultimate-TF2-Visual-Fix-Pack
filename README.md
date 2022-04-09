@@ -44,6 +44,8 @@ Contains models, materials, textures, particles, and source files that can be ea
 * **N-Cognito**
 * PieSavvy
 * JarateKing
+* Whurr
+* FlaminSarge
 
 ---
 
