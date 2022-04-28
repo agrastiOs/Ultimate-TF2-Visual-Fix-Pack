@@ -1,0 +1,55 @@
+"VertexlitGeneric"
+{
+	"$basetexture"	"models/player/items/demo/demo_fiesta_shades"
+	"$surfaceprop"	"plastic"
+	"$basemapalphaphongmask" 1
+
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512"
+	"$detailscale" "5"
+	"$detailblendfactor"0.001
+	"$detailblendmode" 1
+
+	"$yellow" "0"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent" 120
+	"$phongfresnelranges"	"[4 1 2]"
+
+
+//
+// TODO: Paintable
+//
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" "2"
+
+	"$cloakPassEnabled" "1"
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" "$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}
