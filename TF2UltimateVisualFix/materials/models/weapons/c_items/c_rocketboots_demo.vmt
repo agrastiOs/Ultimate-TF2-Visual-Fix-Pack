@@ -5,21 +5,14 @@
 	"$basemapalphaphongmask" "1"
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
 
-	//backpack icon style brighter texture for consistency and better visibility
-	"$detail" 	"models/weapons/c_items/c_rocketboots_demo"
-	"$detailscale" "1"
-	"$detailblendfactor" "0.8"
-	"$detailblendmode" "1"
-	//
-
 	"$phong" "1"
-	"$phongboost" "1.5"
-	"$phongexponent" "4"
+	"$phongboost" "2.3"
+	"$phongexponent" "5"
 	"$phongfresnelranges" "[1 2 5]"
 
 	"$rimlight" "1"		
-	"$rimlightexponent" "10"				
-	"$rimlightboost" "2"
+	"$rimlightexponent" "15"				
+	"$rimlightboost" "1.5"
 
 	"$color" "[2 2 2]"
 
