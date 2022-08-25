@@ -1,0 +1,49 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/bots/merasmus/merasmus_head_spectral"
+	"$basemapalphaphongmask" 1
+	"$additive"	"1"
+		
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" ".3"   
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"      "[.3 1 8]"
+	"$halflambert" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" ".3"
+	"$phongtint"  "[0 1 .3]"
+	
+	">=DX90"
+	{
+		"$selfillum" "1"
+		"$selfIllumFresnel" "1"
+		"$selfIllumFresnelMinMaxExp" "[1 1 1]" // 0.0 1.0 1.0 is the default
+		"$selfillumtint" "[2.0 3.0 2.0]"
+	}
+	
+	// Cloaking
+	"$cloakPassEnabled" "0"
+
+	"$yellow" "0"
+	"$one" "1"
+
+
+	"Proxies"
+	{
+		"spy_invis"
+		{
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

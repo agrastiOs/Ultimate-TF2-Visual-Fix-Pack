@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\custom\dirty_bomb_cart"
+	"$surfaceprop" "metal"
+	"$model" 1
+	"$nocull" 0
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" ".05"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[2 1 6]"
+	"$basemapalphaphongmask" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" ".2"
+}
