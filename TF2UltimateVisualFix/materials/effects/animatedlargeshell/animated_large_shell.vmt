@@ -3,4 +3,6 @@
 	"$baseTexture" "Effects/animatedlargeshell/animated_large_shell"
 	$translucent 1
 	$depthblend 0
+	$blendframes 0
+	$overbrightfactor 2
 }
