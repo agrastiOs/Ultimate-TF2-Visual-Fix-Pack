@@ -4,5 +4,5 @@
 	$translucent 1
 	$depthblend 0
 	$blendframes 0
-	$overbrightfactor 2
+	$overbrightfactor 3.7
 }
