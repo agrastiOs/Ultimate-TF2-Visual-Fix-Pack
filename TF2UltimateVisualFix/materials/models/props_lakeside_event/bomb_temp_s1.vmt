@@ -1,0 +1,53 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_lakeside_event/bomb_temp"
+	"$bumpmap" "models\player\shared\shared_normal"
+
+	"$phong" "1"
+	"$phongexponent" "12"
+	"$phongboost" "1.7"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$halflambert" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "2.5"
+	"$rimlightboost" "16"
+
+	$yellow 0
+	// "$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "0"	
+
+	"$color2" "{140 255 100 }"  // BLACK
+	"$colortint_base" "{140 255 100 }"  
+	"$colortint_tmp" "[0 0 0]" 
+
+	$selfillum 1
+	//"$selfillumtint" "[0.7 0.6 0.2]"
+
+	Proxies
+	{
+		"Equals"
+		{
+			"srcVar1"  "$yellow"
+			"resultVar" "$color2"
+		}
+  		"ItemTintColor"
+  		{
+   			"resultVar" "$colortint_tmp"
+  		}
+  		"SelectFirstIfNonZero"
+  		{
+   			"srcVar1" "$colortint_tmp"
+   			"srcVar2" "$colortint_base"
+   			"resultVar" "$color2"
+  		}
+		"Sine"
+		{
+			"resultVar" "$selfillumtint"
+			"sineperiod" "0.8"
+			"sinemin" "-100"
+			"sinemax" "40"
+		}
+	}
+}

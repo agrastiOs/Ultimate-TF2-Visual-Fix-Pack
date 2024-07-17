@@ -2,39 +2,31 @@
 {
 	"$basetexture" "models\bots\demo\demo_buster"
 	"$bumpmap" "models\bots\demo\demo_buster_normal"
-	"$selfillum" "1"
-	
+
 	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
 	"$detailscale" "5"
 	"$detailblendfactor" .01
 	"$detailblendmode" 6
-	
+
+	">=DX90"
+	{
+		"selfillum" "1"
+	}
+
 	"$phong" "1"
-	"$phongexponent" "15"
-	"$phongboost" "5"
-		
-	"$phongfresnelranges"	"[.5 .7 1]"
-//	"$phongexponenttexture" "models\bots\classes\demo_bot\demo_bot_exp"
-
+	// original value: 15
+	"$phongexponent" "5"
+	// original value: 5
+	"$phongboost" "2"
 	"$lightwarptexture" "models\lightwarps\robot_lightwarp"
+	"$phongfresnelranges"	"[.5 .7 1]"
+	"$halflambert" "1"
 
-	"$basemapalphaphongmask" "1"
-	
-	"$rimlight" "1"						
-	"$rimlightexponent" "1"				
+	"$rimlight" "1"
+	"$rimlightexponent" "1"
 	"$rimlightboost" "2"
-	
+
 	"$yellow" "0"
-
-//	"$blendtintbybasealpha" 1
-
-//	"$envmap" "env_cubemap"
-//	"$envmaptint""[.2 .2 .2]" 
-//	"$EnvmapMask" "models\props_vehicles\train_box_spec"
-//	"$envmapfresnel" "1"
-//	"$envmapFresnelMinMaxExp" "[1 1 1]"
-
-
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
@@ -62,6 +54,5 @@
 			"srcVar1"  "$yellow"
 			"resultVar" "$color2"
 		}
-
 	}
 }

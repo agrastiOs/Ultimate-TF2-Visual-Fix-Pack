@@ -1,0 +1,158 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/all_class/pumkin_hat"
+	"$bumpmap" "models/player/items/all_class/pumkin_hat_normal" 
+	"$detail" "models/player/items/all_class/pumkin_hat_glow" 
+	"$detailscale" "1"
+	"$detailblendfactor" 1
+	"$detailblendmode" 5
+	"$yellow" "0"
+   
+	">=DX90"
+	{
+		"$selfillum" "1"
+	}
+	
+	"$selfillumtint" "[2 .2 1]"
+	"$selfIllumFresnel" "1"
+	"$selfIllumFresnelMinMaxExp" "[.2 0 12]" // 0.0 1.0 1.0 is the default
+	"$invulnlevel" "0"
+	"$invulnexponent" "1"
+	"$invulnfmax" "1"
+	"$invulnscale" "0"
+	"$invulnphong" "1"
+
+	"$half" "0.5"
+
+	"$invulnphongfading" "0"
+	"$invulnphongfull" "1"
+	"$invulnphongoutput" "1" 
+
+	"$invulnexponentfading" "11"
+	"$invulnexponentfull" "53"
+	"$invulnexponentoutput" "1"
+	
+	"$invulnfmaxfading" ".5"
+	"$invulnfmaxfull" "1"
+	"$invulnfmaxoutput" "1"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "9"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.25 1 4]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" ".014"
+	"$rimlightboost" "2"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"Sine"
+		{
+			"sinemax" "1"
+			"sinemin" ".25"
+			"sineperiod" "2"
+			"resultvar" "$detailblendfactor"
+		}
+		"weapon_invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$detail"
+			"animatedtextureframenumvar" "$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$yellow"
+			"resultVar" "$color2"
+		}
+
+//------------------------
+
+
+		"LessOrEqual"
+		{
+			"srcVar1"	"$invulnlevel"
+			"srcVar2"	"$half"
+			"lessEqualVar"	"$invulnphongfading"
+			"greaterVar"	"$invulnphongfull"
+			"resultVar"	"$invulnphongoutput"
+		}
+		"LessOrEqual"
+		{
+			"srcVar1"	"$invulnlevel"
+			"srcVar2"	"$half"
+			"lessEqualVar"	"$invulnfmaxfading"
+			"greaterVar"	"$invulnfmaxfull"
+			"resultVar"	"$invulnfmaxoutput"
+		}
+		"LessOrEqual"
+		{
+			"srcVar1"	"$invulnlevel"
+			"srcVar2"	"$half"
+			"lessEqualVar"	"$invulnexponentfading"
+			"greaterVar"	"$invulnexponentfull"
+			"resultVar"	"$invulnexponentoutput"
+		}
+		"Sine"
+		{
+			"resultVar" "$invulnfmax"
+			"sineperiod" ".8"
+			"sinemin" "$invulnfmaxoutput"
+			"sinemax" "6"
+		}
+		"Sine"
+		{
+			"resultVar" "$invulnphong"
+			"sineperiod" "0.3"
+			"sinemin" "$invulnphongoutput"
+			"sinemax" "1"
+		}
+		"Sine"
+		{
+			"resultVar" "$invulnexponent"
+			"sineperiod" "1.7"
+			"sinemin" "$invulnexponentoutput"
+			"sinemax" "12"
+		}
+		"Sine"
+		{
+			"sineperiod" "1.7"
+			"sinemin" "0"
+			"sinemax" "14"
+			"resultVar" "$rimlightexponent" 
+		}
+		"Sine"
+		{
+			"sineperiod" ".8"
+			"sinemin" "0"
+			"sinemax" "20"
+			"resultVar" "$rimlightboost" 
+		}
+		"Equals"
+		{
+			"srcVar1" "$invulnexponent"
+			"resultVar" "$selfillumfresnelminmaxexp[2]"
+		}
+		"Equals"
+		{
+			"srcVar1" "$invulnfmax"
+			"resultVar" "$selfillumfresnelminmaxexp[1]"
+		}
+		"Equals"
+		{
+			"srcVar1" "$invulnphong"
+			"resultVar" "$phongboost" 
+		}
+	}
+}

@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/items/mvm_loot/engineer/robo_engy_hat_blue"
+	"$selfillum" "1"
+
+	"$phong" "1"
+	"$phongexponent" "0"
+	"$phongboost" "0"
+	"$lightwarptexture" "models/lightwarps/robot_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 4]"
+	"$halflambert" "1"
+
+	"$yellow" "0"
+	"$one" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"360?$color2" "[ 0.65 0.65 0.7 ]"
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

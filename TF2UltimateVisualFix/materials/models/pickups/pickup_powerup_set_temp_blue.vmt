@@ -1,0 +1,24 @@
+"UnLitTwoTexture"
+{
+	"$basetexture"	"models/pickups/pickup_powerup_set_blue"
+	"$texture2"	"models/effects/cappoint_beam_lines_b"
+	"$additive" "1"
+	"$model" "1"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$texture2transform"
+			"texturescrollrate" .1
+			"texturescrollangle" 90
+		}
+		"Sine"
+		{
+			"Sineperiod" "2"
+			"SineMax" "1"
+			"SineMin" ".6"
+			"resultVar" "$color"
+		}
+	}
+}

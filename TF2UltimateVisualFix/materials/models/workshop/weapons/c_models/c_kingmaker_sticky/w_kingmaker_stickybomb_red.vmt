@@ -1,0 +1,45 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\workshop\weapons\c_models\c_kingmaker_sticky/w_kingmaker_stickybomb_red"
+	"$bumpmap" "models\workshop\weapons\c_models\c_kingmaker_sticky/w_kingmaker_stickybomb_normal"
+	"$nodecal" "1"
+
+	"$selfillum" "1"
+
+	"$phongtint"	"[1 .9 .8]"
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "2"	
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges"	"[1.5 3 1]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "10"	
+	"$rimlightboost" "6"
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"StickybombGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}

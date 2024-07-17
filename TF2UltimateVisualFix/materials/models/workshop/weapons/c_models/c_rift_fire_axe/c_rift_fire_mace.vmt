@@ -1,37 +1,35 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/player/engineer/engineer_mech_hand_blue"
-	"$bumpmap"	"models/player/engineer/engineer_mech_hand_phongmask"
-	"$bumpmapalphaphongmask" "1"
+	"$basetexture"	"models/workshop/weapons/c_models/c_rift_fire_mace/c_rift_fire_mace"
+	"$bumpmap"	"models/workshop/weapons/c_models/c_rift_fire_mace/c_rift_fire_mace_normal"
+	"$surfaceprop"	"metal"
 
-	"$detail" "effects/tiledfire/fireLayeredSlowTiled512"
-	"$detailscale" "5"
-	"$detailblendfactor" .01
-	"$detailblendmode" 6
+	"$selfillum" "1"
 
+	//phong properties
 	"$phong" "1"
+	"$phongboost" "1"
 	"$phongexponent" "20"
-	"$phongboost" ".8"
 	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
-	"$phongfresnelranges"	"[.3 1 8]"
-	"$halflambert" "1"
+	"$phongfresnelranges"	"[.5 1 2]"
 
 	"$rimlight" "1"
 	"$rimlightexponent" "4"
-	"$rimlightboost" "2"
+	"$rimlightboost" "1"
 
-	"$yellow" "0"
 	"$glowcolor" "1"
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
 	"$sheenPassEnabled" "1"
 
-	"$sheenmap"			"cubemaps/cubemap_sheen001"
-	"$sheenmapmask"	"Effects/AnimatedSheen/animatedsheen0"
-	"$sheenmaptint" 		"[1 1 1]"
+	"$sheenmap" 		"cubemaps/cubemap_sheen001"
+	"$sheenmapmask" 		"Effects/AnimatedSheen/animatedsheen0"
+	"$sheenmaptint" 		"[ 1 1 1 ]"
 	"$sheenmapmaskframe" 	"0"
 	"$sheenindex" 		"0"
+
+	"$yellow" "0"
 
 	"Proxies"
 	{
@@ -40,16 +38,6 @@
 			"animatedtexturevar" 		"$sheenmapmask"
 			"animatedtextureframenumvar" 	"$sheenmapmaskframe"
 			"animatedtextureframerate" 		"40"
-		}
-		"AnimatedTexture"
-		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
-			"animatedtextureframerate" 30
-		}
-		"BurnLevel"
-		{
-			"resultVar" "$detailblendfactor"
 		}
 		"invis"
 		{
@@ -78,5 +66,27 @@
 			"srcVar2" "$yellow"
 			"resultVar" "$color2"
 		}
+		"Sine"
+		{
+			"sineperiod" ".5"
+			"sinemin" 1
+			"sinemax" 1
+			"resultVar" "$selfillumtint[0]"
+		}
+		"Sine"
+		{
+			"sineperiod" "1"
+			"sinemin" .8
+			"sinemax" 1
+			"resultVar" "$selfillumtint[1]"
+		}
+		"Sine"
+		{
+			"sineperiod" "1"
+			"sinemin" .8
+			"sinemax" 1
+			"resultVar" "$selfillumtint[2]"
+		}
+		
 	}
 }

@@ -1,0 +1,33 @@
+"VertexLitGeneric"
+{
+	<dx90_20b
+	{
+		"$fallbackmaterial" "models/props_gameplay/cap_point_base_blue_dx80"
+	}
+
+	"$basetexture" "models/props_gameplay/cap_point_base_blue"
+	"$bumpmap" "models/props_gameplay/cap_point_base_normal"
+	"$nodecal" "1"
+
+	"$selfillum" "1"
+
+	// Use separate self-illum mask on DX9 or later hardware
+	">=dx90_20b"
+	{
+		"$baseTexture" 		"Models/props_gameplay/cap_point_base_blue_noalpha"
+		"$selfillummask" 	"Models/props_gameplay/cap_point_base_selfillum"
+	}
+
+	// Use redundant self-illum in base alpha on Pre DX9 hardware
+	"<dx90_20b"
+	{
+		"$baseTexture" 	"Models/props_gameplay/cap_point_base_blue"
+	}
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1" 
+	"$envmaptint" "[1 1 1]"
+
+	// fix for control points becoming fullbright
+	"$phong" "1"
+}

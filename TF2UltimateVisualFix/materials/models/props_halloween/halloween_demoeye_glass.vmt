@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_halloween/haunted_eyeball_glass"
+	"$surfaceprop"	"glass"
+	"$translucent" "1"
+	"$nodecal" "1"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.35 .35 .35]"
+
+	"$phong" "1"
+	"$phongexponent" "500"
+	"$phongboost" "20"
+	"$lightwarptexture" "models/props_halloween/halloween_lens_lightwarp"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$halflambert" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" "1"
+}

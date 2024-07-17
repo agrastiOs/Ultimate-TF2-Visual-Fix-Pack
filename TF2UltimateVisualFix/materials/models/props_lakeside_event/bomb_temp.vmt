@@ -1,0 +1,16 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\props_lakeside_event/bomb_temp"
+	"$bumpmap" "models\player\shared\shared_normal"
+
+	"$phong" "1"
+	"$phongexponent" "12"
+	"$phongboost" "1.7"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$halflambert" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "2.5"
+	"$rimlightboost" "16"
+}

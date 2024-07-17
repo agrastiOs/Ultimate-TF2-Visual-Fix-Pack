@@ -1,0 +1,42 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/items/mvm_loot/sniper/robo_sniper_hat"
+	"$basemapalphaphongmask" "1"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "25"
+	"$lightwarptexture" "models/lightwarps/robot_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 4]"
+	"$halflambert" "1"
+
+	"$basephongexponent" "1"
+	"$basephongboost" ".2"  
+
+	"$rimlight" "1"
+	"$rimlightexponent" ".014"
+	"$rimlightboost" "2"
+
+	"$yellow" "0"
+	"$one" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"360?$color2" "[ 0.65 0.65 0.7 ]"
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

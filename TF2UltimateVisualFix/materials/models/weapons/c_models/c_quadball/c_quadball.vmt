@@ -1,22 +1,29 @@
-"VertexLitGeneric"
+"VertexlitGeneric"
 {
-	"$basetexture"	"models/workshop/weapons/c_models/c_rift_fire_axe/c_rift_fire_axe"
-	"$bumpmap"	"models/workshop/weapons/c_models/c_rift_fire_axe/c_rift_fire_axe_normal"
-	"$surfaceprop"	"metal"
-
-	"$selfillum" "1"
-
+	"$baseTexture" "models/workshop/weapons/c_models/c_quadball/c_quadball"
+	"$basemapalphaphongmask" 1
+	
 	"$phong" "1"
-	"$phongboost" "1"
-	"$phongexponent" "20"
+	"$phongexponent" "40"
+	"$phongboost" "2"
 	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
-	"$phongfresnelranges"	"[.5 1 2]"
+	"$phongfresnelranges"	"[2 1 1]"
+	
+	"$basephongexponent" "30"
+	"$basephongboost" "2"
+
+	"$commadd_phongexponent" "30"
+	"$commadd_phongboost" 	"22.5"
+	"$commweapon"		"0"
 
 	"$rimlight" "1"
-	"$rimlightexponent" "4"
-	"$rimlightboost" "1"
+	"$rimlightexponent" "20"	
+	"$rimlightboost" "0.5"
+
+//	"$color2" "[ 0.6 0.6 0.6 ]"
 
 	"$glowcolor" "1"
+	"$tempvar" "0"
 
 	// Cloaking
 	"$cloakPassEnabled" "1"
@@ -65,26 +72,36 @@
 			"srcVar2" "$yellow"
 			"resultVar" "$color2"
 		}
-		"Sine"
+		"CommunityWeapon"
 		{
-			"sineperiod" ".5"
-			"sinemin" 1
-			"sinemax" 1
-			"resultVar" "$selfillumtint[0]"
+			"resultVar" "$commweapon"
 		}
-		"Sine"
+		"Multiply"
 		{
-			"sineperiod" "1"
-			"sinemin" .8
-			"sinemax" 1
-			"resultVar" "$selfillumtint[1]"
+			"srcVar1"  "$commweapon"
+			"srcVar2"  "$commadd_phongexponent" 
+			"resultVar" "$tempvar" 
 		}
-		"Sine"
+		"Add"
 		{
-			"sineperiod" "1"
-			"sinemin" .8
-			"sinemax" 1
-			"resultVar" "$selfillumtint[2]"
+			"srcVar1"  "$tempvar" 
+			"srcVar2"  "$basephongexponent" 
+			"resultVar" "$phongexponent" 
+		}
+		"Multiply"
+		{
+			"srcVar1"  "$commweapon"
+			"srcVar2"  "$commadd_phongboost" 
+			"resultVar" "$tempvar" 
+		}
+		"Add"
+		{
+			"srcVar1"  "$tempvar" 
+			"srcVar2"  "$basephongboost"
+			"resultVar" "$phongboost" 
+		}
+		"WeaponSkin"
+		{
 		}
 	}
 }

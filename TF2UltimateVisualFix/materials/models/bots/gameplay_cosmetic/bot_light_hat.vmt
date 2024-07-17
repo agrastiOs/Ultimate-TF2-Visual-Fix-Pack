@@ -1,0 +1,53 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\bots\gameplay_cosmetic/bot_light_hat"
+
+	"$phong" "1"
+	"$phongexponent" "4"
+	"$phongboost" "1"
+	"$lightwarptexture" "models/lightwarps/robot_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" "4"
+	"$rimmask" "1"
+
+	"$blendtintbybasealpha" "0" 
+	"$blendtintcoloroverbase" "1"  
+
+	"$colortint_base" "{255 237 42}"
+	"$color2" "{255 237 42}"
+	"$colortint_tmp" "{255  237 42}"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	$yellow 0
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$yellow"
+			"resultVar" "$color2"
+		}
+  		"ItemTintColor"
+  		{
+   			"resultVar" "$colortint_tmp"
+  		}
+  		"SelectFirstIfNonZero"
+  		{
+   			"srcVar1" "$colortint_tmp"
+   			"srcVar2" "$colortint_base"
+   			"resultVar" "$color2"
+  		}
+	}
+}

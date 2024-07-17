@@ -1,0 +1,50 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/player/items/mvm_loot/heavy/robo_ushanka"
+	"$basemapalphaphongmask" "1"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "5"
+	"$lightwarptexture" "models/lightwarps/robot_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 1]"
+	"$halflambert" "1"
+
+	"$tempvar" "0"
+
+	"$basephongexponent" "25"
+	"$basephongboost" "5"
+
+	"$commadd_phongexponent" "40"
+	"$commadd_phongboost" 	"22.5"
+	"$commweapon"		"0"
+
+	"$glowcolor" "1"
+	
+	"$rimlight" "1"
+	"$rimlightexponent" "20"
+	"$rimlightboost" "3"
+	
+	"$yellow" "0"
+	"$one" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"360?$color2" "[ 0.65 0.65 0.7 ]"
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

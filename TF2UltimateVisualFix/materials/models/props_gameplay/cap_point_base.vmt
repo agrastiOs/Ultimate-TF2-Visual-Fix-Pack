@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_gameplay/cap_point_base"
+	"$bumpmap"	"models/props_gameplay/cap_point_base_normal"
+	"$nodecal" "1"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1" 
+	"$envmaptint"	"[1 1 1]"
+
+	// unsure if this is needed for the unowned control point
+	"$phong" "1"
+}

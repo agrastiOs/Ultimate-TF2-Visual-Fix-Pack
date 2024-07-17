@@ -1,0 +1,36 @@
+"VertexlitGeneric"
+{
+	"$basetexture"	"models/player/items/demo/veteran_hat"
+	"$bumpmap"	"models/player/items/demo/veteran_hat_normal"
+	"$bumpmapalphaphongmask" "1"
+
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" ".6"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[1 2 4]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" ".65"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+	"$yellow" "0"
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

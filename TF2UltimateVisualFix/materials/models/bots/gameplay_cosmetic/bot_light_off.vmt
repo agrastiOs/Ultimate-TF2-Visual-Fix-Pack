@@ -1,0 +1,36 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models\bots\gameplay_cosmetic/bot_light_off"
+	
+	"$phong" "1"
+	"$phongexponent" "4"
+	"$phongboost" ".5"	
+	"$lightwarptexture" "models/lightwarps/robot_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "5"
+	"$rimlightboost" "4"
+
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	$yellow 0
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

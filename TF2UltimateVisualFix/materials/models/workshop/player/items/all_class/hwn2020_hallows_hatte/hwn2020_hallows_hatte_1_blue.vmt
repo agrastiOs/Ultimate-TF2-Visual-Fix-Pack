@@ -1,0 +1,46 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/workshop/player/items/all_class/hwn2020_hallows_hatte/hwn2020_hallows_hatte_1_color"
+	"$bumpmap" "models/player/shared/shared_normal"
+	"$bumpmapalphaphongmask" "1"
+
+	">=DX90"
+	{
+		"$selfillum" "1"
+	}
+
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "5"
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$phongfresnelranges" "[1 1 1]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "10"
+	"$rimlightboost" "7.5"
+
+	"$cloakPassEnabled" "1"
+	"$yellow" "0"
+
+	"proxies"
+	{
+		"invis"
+		{
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" "0.250000"
+			"texturescrollangle" "90"
+		}
+	}
+}

@@ -1,0 +1,44 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/workshop_partner/player/items/medic/as_medic_cloud_hat/as_medic_cloud_hat"
+	"$normalmapalphaenvmapmask" "1"
+	"$basemapalphaphongmask" "0"
+
+	">=DX90"
+	{
+		"$envmap" "cubemaps/cubemap_gold001"
+		"$envmaptint" "[2.325 1.725 1.625]"
+	}
+
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "5"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.2 1 4]"
+
+	"$basephongexponent" "250"
+	"$basephongboost" "55"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" ".5"
+
+	"$CloakPassEnabled" "1"
+	"$yellow" "0"
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"YellowLevel"
+		{
+			"resultVar" "$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" "$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

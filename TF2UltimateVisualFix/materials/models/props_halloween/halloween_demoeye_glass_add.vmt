@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_halloween/haunted_eyeball_glass_add"
+	"$basemapalphaphongmask" "1"
+	"$surfaceprop"	"glass"
+	"$additive" "1"
+	"$nodecal" "1"
+
+	"$phong" "1"
+	"$phongexponent" "2"
+	"$phongboost" ".2"	
+	"$lightwarptexture" "models/props_halloween/halloween_lens_lightwarp"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$halflambert" "1"
+
+}
