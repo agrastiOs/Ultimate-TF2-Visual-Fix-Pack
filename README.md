@@ -1,10 +1,14 @@
 ![Ultimate TF2 Visual Fix Pack](https://repository-images.githubusercontent.com/137119799/07c36100-c67c-11e9-8e64-0a7d96c86704)
 
-***A version of this pack is now in [Team Comtress 2](https://github.com/mastercomfig/team-comtress-2)!***
+***A version of this pack is in [Team Comtress 2](https://github.com/mastercomfig/team-comtress-2)!***
+
+***Partially utilized by Kritzkast, featured by (now defunct) Creators.TF!***
 
 ### What *is* UVF?
 
-It is a pack of visual fixes and improvements for TF2, to be sent to Valve. Not intended to be a subjective "overhaul" texture pack, but is intended to cohesively fix visual issues and revert not performance-related visual downgrades, and do a consistency pass through all the changes and additions that were made on the long history of the game. Fixes are made in-house or by the original item creator, which are also looked into pretty deeply and compared with the art style of the game if sometimes questions arise. "Subjective" visual improvements are attempted, e.g.: changes that make something look different for no reason, make something look too different, doesn't fit in cohesively, to be avoided (worst case the general community consensus goes), and nothing too drastic because this, as mentioned before, will be presented to Valve, both as it whole and a-la-carte. The full pack makes the game look a bit more modern, yet a bit more to its original intentions, before many updates negatively impacted, usually not even by intention, but by a consequence of other changes/rushed fixes.
+It is a pack of visual fixes and improvements for TF2, to be sent to Valve, both whole and a-la-carte. Not intended to be a subjective "overhaul" texture pack, but is intended to cohesively fix visual issues and revert not performance-related visual downgrades, and do a consistency pass through all the changes and additions that were made on the long history of the game. Fixes are made in-house or by the original item creator, which are also looked into pretty deeply and compared with the art style of the game if sometimes questions arise, sometimes also referring to consensus of the community. 
+
+"Subjective" visual improvements and drastic changes are avoided. The full pack makes the game look a bit more modern, yet a bit more akin to its original intentions, before many updates (usually unintentionally) negatively impacted various visual aspects of TF2.
 
 Contains models, materials, textures, particles, and source files that can be easily modified and compiled.
 
