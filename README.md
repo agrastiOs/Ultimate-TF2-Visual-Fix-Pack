@@ -22,7 +22,7 @@ Contains models, materials, textures, particles, and source files that can be ea
 * Fixed Dragon's Fury not to be as laggy and blinding, also particle size now correctly is like the hitbox size and visually improved.
 * Fixed killstreak sheens to work on weapons like the Prinny Machete and the Crossing Guard.
 * Fixed Photo Badge and Clan Pride to have the default texture the creators intended to be used. Valve said they would fix it 5 years ago, but it never happened.
-* Fixed Pyro flames being blinding and ugly (now in Pre-JI style), and them just breaking completely sometimes. Crit flames have also been improved so the vapor is no longer completely separate from the flames.
+* Fixed Pyro flames being blinding and ugly (now in pre-Jungle Inferno style), and them breaking occasionally. Crit flames have also been improved so the vapor is no longer completely separate from the flames.
 * Fixed many weapons missing glows when critical hit boosted.
 * Fixed some cosmetics that sometimes become completely neon-colored (Being completely glowing white/yellow/blue).
 * General cosmetic fixes like fixing bad .vmt parameters and bad/wrong team texture colors. (e.g., several Ellis' Cap reskin cosmetics that had bad materials now look much better, Pocket Medic's Heavy version no longer looks bland and a Spy disguised as a Heavy equipping the cosmetic can fully cloak now, Tyurtlenek's blue texture now matches with Heavy's shirt, Lucky Shot now looks consistent with Soldier's actual helmet, Antarctic Eyewear's white goggles problem (fixed by item's creator) and such and similar fixes are included.)
@@ -32,9 +32,9 @@ Contains models, materials, textures, particles, and source files that can be ea
 * Muzzleflashes have been improved, for example, Minigun's is similar to the pre-Mecha Update one and the pistol/revolver's flashes no longer lag and are more solid/locked.
 * Sentry Buster not being visibly Jarate'd and Ubered has been fixed, and the Engineer and Heavy bots' heads aren't glowing anymore, additionally, the Engineer was given team-colored glowing eyes.
 * Several weapons that were missing proper lighting parameters entirely/used incorrect parameters for cosmetics received proper parameters.
-* Some weapons with incorrect light warps received the good-looking and correct "weapon" light warp.
+* Some weapons with incorrect lightwarp textures were updated with the good-looking and correct "weapon" lightwarp.
 * Some weapons with missing LODs and bad smoothing have been fixed.
-* Wearable weapons received some fixes too, including the Gunboats looking like intended, and all wearable weapons received a consistent light warp for visibility and consistency purposes.
+* Wearable weapons received some fixes too, including the Gunboats looking like intended, and all wearable weapons received a consistent lightwarp for visibility and consistency purposes.
 * Other miscellaneous fixes (Panzer Pants tank material fix, Self-Made particles fix for them scattering too wide, etc.).
 
 ---
@@ -44,9 +44,9 @@ Contains models, materials, textures, particles, and source files that can be ea
 * **agrastiOs**
 * **Nonhuman**
 * **N-Cognito**
+* **Whurr**
 * PieSavvy
 * JarateKing
-* Whurr
 * FlaminSarge
 
 ---
