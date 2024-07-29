@@ -6,7 +6,7 @@
     // Wearables usually use this lightwarp: "models/player/pyro/pyro_lightwarp"
     // Weapons usually use this lightwarp: "models/lightwarps/weapon_lightwarp"
     // Weapons are the more custom case, but for consistency and readability we'll default to a good weapon lightwarp
-    "$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+    "$lightwarptexture" "models\lightwarps\softened_weapon_lightwarp"
     "$phong"                "1"
     "$phongexponent"        "5"
     "$phongboost"           "0.75"

@@ -13,7 +13,7 @@
 	"$basemapalphaphonmask" "0"
 	"$phongexponent" "10"
 	"$phongboost" "10"	
-	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$lightwarptexture" "models\lightwarps\softened_weapon_lightwarp"
 	"$phongfresnelranges"	"[.3 1 8]"
 	"$halflambert" "1"
 
